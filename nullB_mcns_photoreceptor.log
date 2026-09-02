@@ -1,0 +1,124 @@
+[visual] 45794 nodes, 977533 edges, 100 sampled sources, 71 targets, 50 trials
+  real betweenness: 100s
+  trial 1/50  118s
+  trial 2/50  124s
+  trial 3/50  129s
+  trial 4/50  127s
+  trial 5/50  129s
+  trial 6/50  138s
+  trial 7/50  133s
+  trial 8/50  136s
+  trial 9/50  124s
+  trial 10/50  130s
+  trial 11/50  146s
+  trial 12/50  150s
+  trial 13/50  134s
+  trial 14/50  139s
+  trial 15/50  145s
+  trial 16/50  197s
+  trial 17/50  211s
+  trial 18/50  203s
+  trial 19/50  145s
+  trial 20/50  142s
+  trial 21/50  143s
+  trial 22/50  146s
+  trial 23/50  193s
+  trial 24/50  145s
+  trial 25/50  131s
+  trial 26/50  125s
+  trial 27/50  133s
+  trial 28/50  133s
+  trial 29/50  155s
+  trial 30/50  149s
+  trial 31/50  154s
+  trial 32/50  153s
+  trial 33/50  146s
+  trial 34/50  155s
+  trial 35/50  151s
+  trial 36/50  131s
+  trial 37/50  143s
+  trial 38/50  156s
+  trial 39/50  149s
+  trial 40/50  139s
+  trial 41/50  152s
+  trial 42/50  146s
+  trial 43/50  147s
+  trial 44/50  154s
+  trial 45/50  155s
+  trial 46/50  151s
+  trial 47/50  152s
+  trial 48/50  149s
+  trial 49/50  144s
+  trial 50/50  154s
+Null B -- degree-preserving edge swap (visual)
+============================================================
+
+graph            45794 nodes, 977533 edges
+sources          100 sampled of 254 (seed 0)
+targets          71
+trials           50   (5x|E| swap attempts each)
+
+Preserves every neuron's in-degree, out-degree and out-synapse total;
+destroys which partners it connects to. A neuron that keeps a high
+betweenness here is a bottleneck by position, not by connection count.
+
+top-50 above null, uncorrected p_emp<=0.05:  44/50
+top-50 above null, BH-FDR q_emp<=0.05:       44/50
+top-50 above null, BH-FDR q_z<=0.05:         46/50
+top-25  above null, BH-FDR q_z<=0.05:         24/25
+(empirical p floor is 1/(trials+1) = 0.0196)
+top-50 neurons whose null betweenness is exactly 0:  0/50
+median z:  12.08
+
+rank cell type   neuropil        real  null mean       z      q_z
+   1 aMe12                  8.880e-07  7.878e-09    64.1  0.0e+00
+   2 LoVC23                 8.589e-07  9.538e-10   215.3  0.0e+00
+   3 aMe12                  5.575e-07  8.107e-09    45.7  0.0e+00
+   4 LoVP96                 4.921e-07  1.927e-08    18.9  7.7e-80
+   5 LoVP100                4.068e-07  1.109e-08    27.3 2.7e-164
+   6 MeVPaMe1               3.829e-07  1.052e-08    20.9  2.0e-96
+   7 aMe12                  3.238e-07  4.397e-09    29.9 2.6e-196
+   8 aMe22                  3.519e-07  1.583e-09    54.7  0.0e+00
+   9 aMe_TBD1               2.842e-07  4.750e-09    36.2 7.5e-287
+  10 LoVC23                 2.356e-07  3.720e-10   172.9  0.0e+00
+  11 LoVP96                 1.941e-07  8.565e-09    16.0  9.3e-58
+  12 MeVPLp1                3.066e-07  7.333e-08     5.1  2.0e-07
+  13 Cm31b                  2.547e-07  1.008e-07     2.8  3.2e-03
+  14 aMe22                  1.965e-07  2.575e-09    28.5 3.2e-178
+  15 Cm34                   1.970e-07  1.533e-07     0.7  2.6e-01
+  16 MeVPLp1                1.726e-07  7.086e-08     2.0  2.5e-02
+  17 Cm31b                  1.354e-07  4.226e-08     3.1  1.3e-03
+  18 DNb05                  1.788e-07  1.803e-09    34.3 2.4e-257
+  19 MeVC11                 1.936e-07  2.035e-08     8.2  1.8e-16
+  20 aMe20                  1.688e-07  1.397e-08     5.8  5.8e-09
+  21 CL063                  1.564e-07  1.004e-08     8.1  4.7e-16
+  22 PS137                  1.516e-07  4.483e-09    15.1  1.8e-51
+  23 WED210                 1.688e-07  2.518e-09    22.0 5.9e-107
+  24 CL063                  1.617e-07  1.686e-08     7.6  2.8e-14
+  25 DNp12                  1.578e-07  2.184e-09    24.9 1.2e-136
+  26 Dm9                    1.340e-07  2.384e-10    94.2  0.0e+00
+  27 PS309                  1.521e-07  1.040e-09    37.4 1.8e-305
+  28 aMe12                  5.198e-08  5.618e-09     3.8  9.1e-05
+  29 MeVPMe6                1.602e-07  1.696e-08     6.1  9.2e-10
+  30 MeVC24                 1.335e-07  4.969e-09    13.5  1.5e-41
+  31 Li39                   1.478e-07  3.797e-07    -2.5  9.9e-01
+  32 LoVP53                 1.264e-07  5.923e-09    10.6  1.7e-26
+  33 LoVC20                 1.774e-07  3.252e-09    22.6 1.2e-112
+  34 LT58                   1.888e-07  9.004e-08     1.7  4.5e-02
+  35 aMe24                  1.292e-07  3.834e-09    13.3  1.4e-40
+  36 PLP074                 1.626e-07  1.488e-09    27.8 3.2e-169
+  37 PS124                  1.063e-07  9.881e-09     5.2  1.0e-07
+  38 MeVC11                 1.187e-07  8.727e-09     6.6  2.9e-11
+  39 LoVC23                 1.249e-07  3.329e-09    10.8  2.4e-27
+  40 OA-AL2i1               1.292e-07  2.140e-08     4.6  2.4e-06
+  41 LoVP100                8.727e-08  7.153e-09     7.3  2.2e-13
+  42 aMe20                  1.130e-07  5.990e-09     9.7  1.6e-22
+  43 MeVP43                 9.395e-08  4.149e-09    10.8  3.6e-27
+  44 LT79                   1.450e-07  1.158e-08     7.6  3.0e-14
+  45 Cm34                   7.773e-08  8.573e-08    -0.1  5.7e-01
+  46 LoVP53                 9.013e-08  2.852e-09    13.9  4.8e-44
+  47 PS124                  9.585e-08  7.773e-09     6.2  3.6e-10
+  48 PS279                  9.252e-08  6.772e-10    21.6 3.8e-103
+  49 MeVC23                 7.535e-08  4.526e-08     0.8  2.2e-01
+  50 VES013                 9.395e-08  9.824e-10    32.9 1.2e-236
+

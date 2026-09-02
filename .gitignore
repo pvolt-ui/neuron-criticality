@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+~$*
+
+# bulk data (too large for GitHub / regenerable)
+data/
+mcns/
+mcns_motor/
+fafb_783_edge_list.csv
+*.npy
+*.csv.gz
+subgraph_edges*.csv
+
+# WSL alternate-data-stream artifacts
+*:Zone.Identifier
+
+# third-party preprint PDFs
+nihpp-*.pdf

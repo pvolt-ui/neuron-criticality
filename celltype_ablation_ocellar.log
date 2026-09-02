@@ -1,0 +1,32 @@
+
+=== ocellar: 386 nodes, 100 sources, 90 targets, 8 validated cell types
+  controls k=1 done
+  controls k=2 done
+  CB0567       k=2   detour   3.822%  cut 0     (single copy:  2.450%, cut 0)  z_top +2.13
+  DNp28        k=2   detour   0.546%  cut 1672  (single copy:  0.009%, cut 979)  z_top -0.36
+  DNp19        k=2   detour   0.000%  cut 957   (single copy:  0.000%, cut 968)  z_top -0.77
+  CB1350       k=2   detour   0.000%  cut 968   (single copy:  0.000%, cut 968)  z_top -0.77
+  CB0415       k=2   detour   3.891%  cut 0     (single copy:  3.484%, cut 0)  z_top +2.18
+  OCG02b       k=2   detour   6.973%  cut 474   (single copy:  4.053%, cut 180)  z_top +4.51
+  DNb06        k=2   detour   0.201%  cut 0     (single copy:  0.199%, cut 0)  z_top -0.62
+  DNp40        k=1   detour   0.817%  cut 0     (single copy:  0.817%, cut 0)  z_top +3.66
+
+Cell-type ablation -- is the unit of criticality the neuron or the type?
+==========================================================================
+
+--- ocellar ---
+  random_mid  detour  0.000% cut    0.0 (size-matched draws)
+  random_top  detour  0.571% cut   62.8 (size-matched draws)
+  cell types that cut >=1 pair: 4/8   single-copy deletions that cut >=1: 4/8
+
+  cell type      n   detour    cut   1-copy  1-cut  z vs top
+  OCG02b         2   6.973%    474   4.053%    180     +4.51
+  CB0415         2   3.891%      0   3.484%      0     +2.18
+  CB0567         2   3.822%      0   2.450%      0     +2.13
+  DNp40          1   0.817%      0   0.817%      0     +3.66
+  DNp28          2   0.546%   1672   0.009%    979     -0.36
+  DNb06          2   0.201%      0   0.199%      0     -0.62
+  CB1350         2   0.000%    968   0.000%    968     -0.77
+  DNp19          2   0.000%    957   0.000%    968     -0.77
+
+

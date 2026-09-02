@@ -1,0 +1,270 @@
+[olfactory] 8691 nodes, 163102 edges, 100 sampled sources, 113 targets, 20 trials
+  real betweenness: 12s
+  trial 1/20  12s
+  trial 2/20  14s
+  trial 3/20  16s
+  trial 4/20  13s
+  trial 5/20  15s
+  trial 6/20  14s
+  trial 7/20  17s
+  trial 8/20  14s
+  trial 9/20  14s
+  trial 10/20  16s
+  trial 11/20  14s
+  trial 12/20  16s
+  trial 13/20  13s
+  trial 14/20  17s
+  trial 15/20  14s
+  trial 16/20  15s
+  trial 17/20  16s
+  trial 18/20  16s
+  trial 19/20  16s
+  trial 20/20  14s
+Null B -- degree-preserving edge swap (olfactory)
+============================================================
+
+graph            8691 nodes, 163102 edges
+sources          100 sampled of 1765 (seed 0)
+targets          113
+trials           20   (5x|E| swap attempts each)
+
+Preserves every neuron's in-degree, out-degree and out-synapse total;
+destroys which partners it connects to. A neuron that keeps a high
+betweenness here is a bottleneck by position, not by connection count.
+
+top-50 neurons above null at p<=0.05:  40/50
+top-50 neurons whose null betweenness is exactly 0:  0/50
+median z:  4.60
+
+rank cell type   neuropil        real  null mean       z      p
+   1 v2LN30      AL_L       5.426e-05  7.591e-06    17.9   0.00
+   2 lLN2T_c     AL_L       3.932e-05  3.758e-06    14.1   0.00
+   3 v2LN30      AL_R       2.919e-05  6.766e-06     4.9   0.00
+   4 lLN2T_c     AL_L       2.416e-05  2.490e-06    10.3   0.00
+   5 il3LN6      AL_R       2.434e-05  7.656e-06     6.8   0.00
+   6 MZ_lv2PN    AL_R       2.367e-05  3.702e-07    50.5   0.00
+   7 MZ_lv2PN    AL_L       2.291e-05  7.602e-07    17.8   0.00
+   8 AL-AST1     AL_L       1.865e-05  7.675e-07    13.9   0.00
+   9 lLN2T_c     AL_R       1.596e-05  3.147e-06     6.2   0.00
+  10 AL-AST1     VES_R      1.706e-05  6.046e-07    23.4   0.00
+  11 DP1m_adPN   AL_R       1.034e-05  4.766e-06     2.7   0.00
+  12 il3LN6      AL_L       1.111e-05  7.554e-06     1.2   0.05
+  13 DP1m_adPN   AL_L       1.572e-05  5.369e-06     4.1   0.00
+  14 VESa1_P02   AVLP_R     1.044e-05  3.801e-07    18.4   0.00
+  15 VESa1_P02   AVLP_L     9.377e-06  2.616e-07    17.7   0.00
+  16 lLN2F_b     AL_L       1.422e-05  7.917e-06     2.1   0.00
+  17 LHPV10b1    LH_R       6.913e-06  4.072e-07    11.4   0.00
+  18 lLN2T_c     AL_R       1.007e-05  3.872e-06     2.9   0.00
+  19 CRE011      SMP_R      5.576e-06  1.503e-06     3.2   0.00
+  20 VES079      VES_R      6.489e-06  8.410e-08    27.4   0.00
+  21 LHPV10b1    LH_L       8.370e-06  4.788e-07    14.1   0.00
+  22 DM1_lPN     AL_L       4.516e-06  4.360e-06     0.1   0.35
+  23 lLN2F_b     AL_L       2.728e-06  8.206e-06    -2.0   1.00
+  24 CRE011      SMP_L      6.887e-06  1.526e-06     4.7   0.00
+  25 CB0448      GNG        5.258e-06  1.377e-07    15.4   0.00
+  26 ALBN1       AL_L       5.245e-06  1.295e-06     3.4   0.05
+  27 LHPD5c1     LH_R       2.238e-06  4.649e-07     3.2   0.00
+  28 LHPV10d1    SMP_R      4.000e-06  6.814e-07     4.5   0.00
+  29 PLP096      VES_R      5.125e-06  8.012e-07     4.2   0.00
+  30 lLN2T_b     AL_R       3.231e-06  3.664e-06    -0.2   0.55
+  31 DC1_adPN    AL_L       5.867e-06  1.813e-06     3.2   0.00
+  32 LHAV2k8     LH_L       4.728e-06  2.556e-07    12.5   0.00
+  33 VA2_adPN    AL_L       7.456e-06  3.137e-06     2.5   0.00
+  34 PLP096      VES_L      4.834e-06  7.582e-07     5.3   0.00
+  35 VM4_adPN    AL_L       4.490e-06  6.092e-07     4.3   0.00
+  36 VES013      VES_L      4.463e-06  2.483e-07    10.1   0.00
+  37 LHPD5c1     LH_L       6.675e-06  2.291e-07    17.0   0.00
+  38 PVLP076     AVLP_R     4.013e-06  3.695e-07     6.2   0.00
+  39 AL-MBDL1    AL_R       2.993e-06  2.432e-06     0.3   0.30
+  40 DNb05       PLP_L      3.788e-06  3.589e-07     6.7   0.00
+  41 CB0196      PLP_L      3.351e-06  9.218e-07     2.3   0.05
+  42 lLN2F_b     AL_R       6.887e-06  8.845e-06    -0.5   0.60
+  43 lLN2P_c     AL_L       9.098e-06  1.049e-06    10.1   0.00
+  44 VL2a_adPN   AL_R       9.403e-07  2.297e-06    -0.8   0.90
+  45 VA6_adPN    AL_L       3.430e-06  2.573e-06     0.5   0.35
+  46 VM6_adPN    AL_R       3.827e-06  2.369e-06     1.1   0.15
+  47 DNb05       SPS_R      3.178e-06  4.953e-07     4.5   0.00
+  48 DNpe002     GNG        3.245e-06  2.384e-08    51.4   0.00
+  49 DM1_lPN     AL_R       3.073e-06  2.298e-06     0.6   0.30
+  50 VA6_adPN    AL_R       2.344e-06  2.251e-06     0.1   0.50
+
+[mechanosensory] 13564 nodes, 373211 edges, 100 sampled sources, 1114 targets, 20 trials
+  real betweenness: 30s
+  trial 1/20  37s
+  trial 2/20  33s
+  trial 3/20  33s
+  trial 4/20  37s
+  trial 5/20  38s
+  trial 6/20  32s
+  trial 7/20  33s
+  trial 8/20  37s
+  trial 9/20  34s
+  trial 10/20  32s
+  trial 11/20  35s
+  trial 12/20  33s
+  trial 13/20  32s
+  trial 14/20  32s
+  trial 15/20  34s
+  trial 16/20  38s
+  trial 17/20  36s
+  trial 18/20  36s
+  trial 19/20  33s
+  trial 20/20  44s
+Null B -- degree-preserving edge swap (mechanosensory)
+============================================================
+
+graph            13564 nodes, 373211 edges
+sources          100 sampled of 1675 (seed 0)
+targets          1114
+trials           20   (5x|E| swap attempts each)
+
+Preserves every neuron's in-degree, out-degree and out-synapse total;
+destroys which partners it connects to. A neuron that keeps a high
+betweenness here is a bottleneck by position, not by connection count.
+
+top-50 neurons above null at p<=0.05:  46/50
+top-50 neurons whose null betweenness is exactly 0:  0/50
+median z:  6.55
+
+rank cell type   neuropil        real  null mean       z      p
+   1 AN_GNG_89   GNG        1.550e-05  4.950e-07    21.3   0.00
+   2 DNg62       GNG        1.415e-05  1.036e-07    84.2   0.00
+   3 PS100       GNG        1.756e-05  4.888e-06     3.6   0.00
+   4 AN_GNG_89   GNG        2.670e-05  7.739e-07    25.5   0.00
+   5 DNg84       GNG        3.116e-05  1.914e-06    17.0   0.00
+   6 DNge132     GNG        6.058e-05  1.626e-06    25.2   0.00
+   7 AVLP080     AVLP_R     1.853e-05  1.199e-05     1.1   0.10
+   8 CB0021      VES_L      4.737e-05  3.517e-06    14.0   0.00
+   9 DNge132     GNG        2.680e-05  6.893e-07    20.1   0.00
+  10 CB0021      VES_R      2.844e-05  2.549e-06    13.2   0.00
+  11 DNg62       GNG        1.814e-05  5.980e-08   137.5   0.00
+  12 AVLP080     AVLP_L     1.883e-05  1.512e-05     0.6   0.25
+  13 CB0574      SPS_R      3.013e-05  1.905e-06    14.8   0.00
+  14 DNg98       GNG        2.595e-05  8.905e-07    32.1   0.00
+  15 DNa03       LAL_R      1.200e-05  4.948e-06     2.1   0.05
+  16 DNg84       GNG        3.479e-06  1.395e-06     1.4   0.05
+  17 CB0109      GNG        2.314e-05  2.318e-06     8.4   0.00
+  18 CB0534      GNG        2.313e-05  2.345e-06     8.1   0.00
+  19 CB0109      GNG        2.174e-05  1.413e-06    17.7   0.00
+  20 AVLP340     AVLP_R     7.910e-06  1.461e-06     5.7   0.00
+  21 AVLP340     AVLP_L     1.408e-05  2.176e-06     6.6   0.00
+  22 CB0478      SAD        2.814e-05  3.580e-06    10.9   0.00
+  23 DNg100      GNG        2.021e-05  1.662e-06    10.5   0.00
+  24 DNg35       GNG        1.923e-05  9.552e-07     9.9   0.00
+  25 DNa03       LAL_L      1.028e-05  4.614e-06     1.7   0.05
+  26 CB3892b     GNG        1.387e-05  2.884e-06     3.9   0.00
+  27 CB0443      GNG        1.593e-05  3.273e-06     4.0   0.00
+  28 AN_GNG_SAD_2GNG        7.399e-06  4.260e-07     5.1   0.00
+  29 PVLP115     GNG        9.715e-06  1.824e-06     3.2   0.00
+  30 CB0442      GNG        1.141e-05  1.103e-06     7.6   0.00
+  31 VES005      VES_L      2.299e-05  1.482e-06    14.3   0.00
+  32 DNge027     GNG        8.405e-06  3.365e-07    18.9   0.00
+  33 PVLP076     AVLP_R     2.159e-05  5.236e-06     4.7   0.00
+  34 DNge123     GNG        1.578e-05  1.178e-06     8.0   0.00
+  35 DNge027     GNG        1.126e-05  5.067e-07    21.4   0.00
+  36 PS124       IPS_L      6.807e-06  3.032e-06     1.7   0.10
+  37 CB0676      SPS_R      1.373e-05  2.545e-06     4.7   0.00
+  38 PS100       GNG        6.306e-06  3.405e-06     1.0   0.10
+  39 CB0443      GNG        2.048e-05  3.530e-06     6.5   0.00
+  40 DNp35       AVLP_R     1.143e-05  4.458e-06     2.7   0.00
+  41 CB0677      VES_R      1.454e-05  3.010e-06     4.8   0.00
+  42 DNg16       GNG        1.230e-05  1.839e-06     5.0   0.00
+  43 LAL073      LAL_L      9.759e-06  3.554e-06     2.6   0.00
+  44 DNge065     GNG        8.437e-06  1.994e-06     4.3   0.00
+  45 DNg85       GNG        1.959e-05  3.626e-07    27.9   0.00
+  46 AN_AVLP_GNG_17GNG        8.046e-06  5.553e-07     5.0   0.00
+  47 AN_multi_62 PVLP_L     1.092e-05  2.574e-07    27.0   0.00
+  48 CB3916      GNG        1.453e-05  3.624e-06     3.7   0.00
+  49 CB0676      IPS_L      1.092e-05  1.809e-06     5.5   0.00
+  50 PS124       IPS_R      8.747e-06  3.112e-06     1.7   0.05
+
+[visual] 24185 nodes, 236798 edges, 100 sampled sources, 105 targets, 20 trials
+  real betweenness: 35s
+  trial 1/20  33s
+  trial 2/20  34s
+  trial 3/20  32s
+  trial 4/20  33s
+  trial 5/20  33s
+  trial 6/20  33s
+  trial 7/20  34s
+  trial 8/20  35s
+  trial 9/20  33s
+  trial 10/20  34s
+  trial 11/20  34s
+  trial 12/20  35s
+  trial 13/20  33s
+  trial 14/20  34s
+  trial 15/20  33s
+  trial 16/20  32s
+  trial 17/20  33s
+  trial 18/20  33s
+  trial 19/20  35s
+  trial 20/20  36s
+Null B -- degree-preserving edge swap (visual)
+============================================================
+
+graph            24185 nodes, 236798 edges
+sources          100 sampled of 146 (seed 0)
+targets          105
+trials           20   (5x|E| swap attempts each)
+
+Preserves every neuron's in-degree, out-degree and out-synapse total;
+destroys which partners it connects to. A neuron that keeps a high
+betweenness here is a bottleneck by position, not by connection count.
+
+top-50 neurons above null at p<=0.05:  44/50
+top-50 neurons whose null betweenness is exactly 0:  2/50
+median z:  20.83
+
+rank cell type   neuropil        real  null mean       z      p
+   1 CB3916      GNG        7.869e-06  2.684e-08   139.7   0.00
+   2 CB0415      GNG        4.205e-06  1.624e-09   730.8   0.00
+   3 CB3716      IPS_R      3.967e-06  7.267e-09   269.4   0.00
+   4 CB0415      GNG        3.521e-06  1.795e-09   984.9   0.00
+   5 cM15        ME_R       3.338e-06  4.685e-08    42.5   0.00
+   6 OCG01d      IPS_L      3.430e-06  3.745e-08    55.6   0.00
+   7 CB0567      IPS_L      3.025e-06  6.386e-08    19.3   0.00
+   8 cM15        ME_L       2.867e-06  8.062e-08    29.9   0.00
+   9 CB3716      IPS_L      2.377e-06  3.112e-08    45.1   0.00
+  10 CB0478      SAD        2.673e-06  2.180e-08    67.1   0.00
+  11 OCG01d      SPS_R      2.278e-06  3.035e-08    34.2   0.00
+  12 Sm41        ME_R       2.043e-06  5.945e-07     5.8   0.00
+  13 OCG01e      IPS_L      2.088e-06  2.240e-08    54.3   0.00
+  14 OA-AL2i1    ME_L       2.084e-06  2.189e-08    47.6   0.00
+  15 DNp28       OCG        2.495e-06  8.635e-09    64.4   0.00
+  16 CB1350      SAD        2.466e-06  0.000e+00     inf   0.00
+  17 DNp19       SPS_L      2.466e-06  0.000e+00     inf   0.00
+  18 DNp10       SPS_L      2.370e-06  2.479e-09   229.9   0.00
+  19 Sm42        ME_R       1.588e-06  1.121e-06     1.0   0.15
+  20 OCG01b      IPS_R      1.828e-06  3.069e-08    27.7   0.00
+  21 OA-AL2i1    ME_R       1.705e-06  6.309e-08    18.1   0.00
+  22 PS124       IPS_R      1.614e-06  5.335e-08    21.2   0.00
+  23 DNp28       OCG        1.795e-06  1.736e-08    34.9   0.00
+  24 OCG01e      IPS_R      8.789e-07  3.770e-08    13.2   0.00
+  25 Sm41        ME_L       1.474e-06  3.410e-07     5.7   0.00
+  26 Sm42        ME_L       1.453e-06  1.097e-06     0.7   0.20
+  27 PS126       SPS_R      1.250e-06  3.026e-08    20.4   0.00
+  28 OCG01b      IPS_L      1.404e-06  3.445e-08    19.5   0.00
+  29 PS276       SPS_R      8.344e-07  3.420e-09   106.5   0.00
+  30 CB0478      SAD        1.105e-06  1.573e-08    28.7   0.00
+  31 OCG02b      SPS_R      7.079e-07  2.052e-09   108.1   0.00
+  32 DNp40       IPS_R      1.298e-06  1.915e-08    30.0   0.00
+  33 CB0676      SPS_R      1.105e-06  4.352e-08    14.9   0.00
+  34 PS126       IPS_L      9.353e-07  1.248e-08    37.0   0.00
+  35 CB0567      IPS_R      8.755e-07  2.873e-08    16.2   0.00
+  36 MeMe_e02    ME_R       8.447e-07  1.046e-07     5.1   0.00
+  37 MTe01b      SPS_L      8.447e-07  1.396e-07     4.1   0.00
+  38 Pm14        ME_R       8.601e-07  1.855e-07     3.4   0.00
+  39 Li33        LO_L       6.395e-07  3.326e-06    -3.6   1.00
+  40 DNb06       IPS_L      7.746e-07  4.275e-09    50.8   0.00
+  41 cM02b       ME_R       7.575e-07  3.702e-08    10.3   0.00
+  42 OCG01f      IPS_R      4.890e-07  5.001e-08     6.9   0.00
+  43 cM12        ME_R       4.514e-07  5.899e-09    27.2   0.00
+  44 Sm36        ME_R       4.446e-07  6.592e-08     3.4   0.05
+  45 Sm40        ME_R       5.831e-07  4.223e-07     0.5   0.25
+  46 MTe19       ME_R       5.831e-07  2.139e-07     1.6   0.10
+  47 MeMe_e02    ME_L       5.814e-07  4.976e-08     9.0   0.00
+  48 MTe18       PLP_R      5.660e-07  4.942e-08     5.1   0.00
+  49 MeLp1       ME_L       5.044e-07  2.616e-07     0.9   0.20
+  50 MeMe_e02    ME_R       4.942e-07  2.984e-08     6.9   0.00
+

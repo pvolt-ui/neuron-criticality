@@ -1,0 +1,9 @@
+[olfactory] 8691 nodes, 163102 edges, 150/1765 sources, 113 targets
+  done in 13s
+  saved /home/pchodavarapu/neuron-criticality/./ranked_olfactory_sampled.csv
+[mechanosensory] 13564 nodes, 373211 edges, 150/1675 sources, 1114 targets
+  done in 38s
+  saved /home/pchodavarapu/neuron-criticality/./ranked_mechanosensory_sampled.csv
+[visual] 24185 nodes, 236798 edges, 146/146 sources, 105 targets
+  done in 49s
+  saved /home/pchodavarapu/neuron-criticality/./ranked_visual_sampled.csv

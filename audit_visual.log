@@ -1,0 +1,43 @@
+
+=== visual: 60467 nodes, 100 sources, 422 targets, 4 candidates
+  candidate 720575940608545219  detour  0.065%  cut 0
+  candidate 720575940627796298  detour  0.049%  cut 0
+  candidate 720575940623702345  detour  0.164%  cut 0
+  candidate 720575940619636615  detour  0.062%  cut 0
+  top50     720575940630006521  detour  0.075%  cut 0
+  top50     720575940643315748  detour  0.089%  cut 0
+  top50     720575940613686698  detour  0.060%  cut 0
+  top50     720575940638049136  detour  0.074%  cut 0
+  top50     720575940630502522  detour  0.101%  cut 0
+  top50     720575940626848275  detour  0.074%  cut 0
+  top50     720575940623953900  detour  0.043%  cut 0
+  top50     720575940640851363  detour  0.254%  cut 0
+  top50     720575940611563310  detour  0.304%  cut 0
+  top50     720575940622523508  detour  1.554%  cut 0
+  top50     720575940628908548  detour  4.509%  cut 422
+  top50     720575940627083397  detour  0.074%  cut 0
+  mid       720575940622057057  detour  0.004%  cut 0
+  mid       720575940608496196  detour  0.000%  cut 0
+  mid       720575940613506355  detour  0.000%  cut 0
+  mid       720575940610739918  detour  0.000%  cut 0
+  mid       720575940624111083  detour  0.004%  cut 0
+  mid       720575940634156755  detour  0.000%  cut 0
+  mid       720575940624447240  detour  0.000%  cut 0
+  mid       720575940622628646  detour  0.001%  cut 0
+  mid       720575940622912964  detour  0.000%  cut 0
+  mid       720575940652554657  detour  0.001%  cut 0
+  mid       720575940627206842  detour  0.001%  cut 0
+  mid       720575940632163432  detour  0.000%  cut 0
+Cross-modal bottleneck audit -- node-deletion test
+====================================================================
+
+--- visual ---
+  100 sampled sources x 422 descending targets   (42200 connected pairs)
+  top-50 control detour: 0.601% +/- 1.301   (max 4.509%)
+  rank-1000+ control:    0.001% +/- 0.001
+
+  720575940608545219  AVLP080   AVLP_R  rank  34  detour  0.065%  z=-0.41  cut 0  hops 2->1
+  720575940627796298  AVLP080   AVLP_L  rank  48  detour  0.049%  z=-0.42  cut 0  hops 2->1
+  720575940623702345  CB0677    VES_R   rank  46  detour  0.164%  z=-0.34  cut 0  hops 2->1
+  720575940619636615  PS124     IPS_R   rank  19  detour  0.062%  z=-0.41  cut 0  hops 2->1
+

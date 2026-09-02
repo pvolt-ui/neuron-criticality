@@ -1,0 +1,30 @@
+Cross-modal bottleneck overlap (top-50 betweenness per modality)
+=================================================================
+olfactory: 50 candidates
+mechanosensory: 50 candidates
+visual: 50 candidates
+ocellar: 50 candidates
+
+In 2+ modalities: 6
+In all 3 modalities: 0
+
+Cell types among shared bottlenecks:
+primary_type
+AVLP080    2
+PVLP076    1
+CB0676     1
+CB0677     1
+PS124      1
+
+Neuropils among shared bottlenecks:
+neuropil
+AVLP_R    2
+AVLP_L    1
+SPS_R     1
+VES_R     1
+IPS_R     1
+
+Neurotransmitters among shared bottlenecks:
+nt_type
+ACH     3
+GABA    3

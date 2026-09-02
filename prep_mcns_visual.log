@@ -1,0 +1,14 @@
+have   mcns_connections.csv.gz (31 MB)
+annotations: 166694 neurons
+  6239112 (pre, post, neuropil) rows
+  6239112 unique pairs, min syn_count 5
+  full graph: 165820 nodes, 6239112 edges
+  descending targets: 2034 (2027 in graph)
+
+=== visual (descending) ===
+  sources: Primary Cell Type matches L[1-5] | Tm* | TmY* | Mi*  (lamina/medulla columnar inputs)
+  sensory: 45608 (45604 in graph)
+  subgraph: 83016 nodes, 2908395 edges
+  in subgraph: 29459 sources, 743 descending targets
+
+saved to /home/pchodavarapu/neuron-criticality/mcns/

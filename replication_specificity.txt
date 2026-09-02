@@ -1,0 +1,15 @@
+Replication specificity: betweenness vs total-synapse baseline, FAFB vs MCNS
+==========================================================================================
+
+--- olfactory ---
+  betweenness            shared  1209  top-25 overlap  9 (exp 0.52, p=2.3e-10)  rho all +0.669   rho nonzero-in-both (n=157) +0.539
+  total_syn baseline     shared  1209  top-25 overlap 20 (exp 0.52, p=1.8e-34)  rho all +0.901   rho nonzero-in-both (n=1209) +0.901
+
+--- mechanosensory ---
+  betweenness            shared  2218  top-25 overlap 12 (exp 0.28, p=8.8e-19)  rho all +0.710   rho nonzero-in-both (n=639) +0.561
+  total_syn baseline     shared  2218  top-25 overlap 18 (exp 0.28, p=9.2e-34)  rho all +0.864   rho nonzero-in-both (n=2218) +0.864
+
+--- visual ---
+  betweenness            shared  2323  top-25 overlap 13 (exp 0.27, p=2.9e-21)  rho all +0.704   rho nonzero-in-both (n=548) +0.604
+  total_syn baseline     shared  2323  top-25 overlap 19 (exp 0.27, p=4.5e-37)  rho all +0.911   rho nonzero-in-both (n=2323) +0.911
+

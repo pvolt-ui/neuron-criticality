@@ -1,0 +1,7 @@
+Weighting vs data-change ablation (top-50 overlap)
+====================================================
+
+ocellar:
+  unweighted vs weighted, both on new graph: 38/50 shared
+  -> weighting alone changes 12/50 of the top-50
+

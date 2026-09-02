@@ -1,0 +1,44 @@
+Cross-modal bottleneck audit -- node-deletion test
+====================================================================
+
+--- olfactory ---
+  100 sampled sources x 113 descending targets   (11300 connected pairs)
+  top-50 control detour: 0.371% +/- 0.341   (max 1.217%)
+  rank-1000+ control:    0.000% +/- 0.000
+
+  720575940615723314  PVLP076   AVLP_R  rank  38  detour  0.355%  z=-0.05  cut 0  hops 2->1
+
+--- mechanosensory ---
+  100 sampled sources x 1114 descending targets   (111400 connected pairs)
+  top-50 control detour: 0.338% +/- 0.402   (max 1.281%)
+  rank-1000+ control:    0.001% +/- 0.001
+
+  720575940615723314  PVLP076   AVLP_R  rank  33  detour  0.030%  z=-0.76  cut 0  hops 2->1
+  720575940626555440  CB0478    SAD     rank  22  detour  0.051%  z=-0.71  cut 0  hops 2->1
+  720575940643112333  CB0676    SPS_R   rank  37  detour  0.058%  z=-0.70  cut 0  hops 2->1
+  720575940624163303  CB3916    GNG     rank  48  detour  0.050%  z=-0.72  cut 0  hops 2->1
+  720575940619636615  PS124     IPS_R   rank  50  detour  0.018%  z=-0.79  cut 0  hops 2->1
+
+--- ocellar ---
+  100 sampled sources x 105 descending targets   (10500 connected pairs)
+  top-50 control detour: 1.462% +/- 2.504   (max 8.999%)
+  rank-1000+ control:    0.000% +/- 0.000
+
+  720575940626555440  CB0478    SAD     rank  10  detour  1.642%  z=+0.07  cut 0  hops 2->1
+  720575940643112333  CB0676    SPS_R   rank  33  detour  0.581%  z=-0.35  cut 0  hops 2->1
+  720575940624163303  CB3916    GNG     rank   1  detour  3.805%  z=+0.94  cut 0  hops 2->1
+  720575940619636615  PS124     IPS_R   rank  22  detour  0.267%  z=-0.48  cut 0  hops 2->1
+
+Cross-modal bottleneck audit -- node-deletion test
+====================================================================
+
+--- visual ---
+  100 sampled sources x 422 descending targets   (42200 connected pairs)
+  top-50 control detour: 0.601% +/- 1.301   (max 4.509%)
+  rank-1000+ control:    0.001% +/- 0.001
+
+  720575940608545219  AVLP080   AVLP_R  rank  34  detour  0.065%  z=-0.41  cut 0  hops 2->1
+  720575940627796298  AVLP080   AVLP_L  rank  48  detour  0.049%  z=-0.42  cut 0  hops 2->1
+  720575940623702345  CB0677    VES_R   rank  46  detour  0.164%  z=-0.34  cut 0  hops 2->1
+  720575940619636615  PS124     IPS_R   rank  19  detour  0.062%  z=-0.41  cut 0  hops 2->1
+

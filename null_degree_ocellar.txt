@@ -1,0 +1,71 @@
+Null B -- degree-preserving edge swap (ocellar)
+============================================================
+
+graph            386 nodes, 2095 edges
+sources          100 sampled of 142 (seed 0)
+targets          90
+trials           200   (5x|E| swap attempts each)
+
+Preserves every neuron's in-degree, out-degree and out-synapse total;
+destroys which partners it connects to. A neuron that keeps a high
+betweenness here is a bottleneck by position, not by connection count.
+
+top-50 above null, uncorrected p_emp<=0.05:  13/50
+top-50 above null, BH-FDR q_emp<=0.05:       6/50
+top-50 above null, BH-FDR q_z<=0.05:         13/50
+top-25  above null, BH-FDR q_z<=0.05:         12/25
+(empirical p floor is 1/(trials+1) = 0.0050)
+top-50 neurons whose null betweenness is exactly 0:  0/50
+median z:  0.55
+
+rank cell type   neuropil        real  null mean       z      q_z
+   1 OCG01d      IPS_L      1.375e-02  1.051e-02     0.9  4.4e-01
+   2 CB0567      IPS_L      9.118e-03  3.493e-03     2.5  3.1e-02
+   3 OCG01e      IPS_L      8.536e-03  8.194e-03     0.1  7.2e-01
+   4 OCG01b      IPS_R      6.615e-03  6.530e-03     0.0  7.4e-01
+   5 OCG01d      SPS_R      7.075e-03  8.124e-03    -0.3  8.1e-01
+   6 DNp28       OCG        6.649e-03  1.110e-03     6.8  5.8e-11
+   7 DNp19       SPS_L      6.548e-03  3.083e-04    13.3  5.5e-39
+   8 CB1350      SAD        6.548e-03  2.225e-04    15.6  2.6e-53
+   9 OCG01b      IPS_L      6.020e-03  4.984e-03     0.4  6.1e-01
+  10 OCG01e      IPS_R      6.480e-03  4.988e-03     0.6  5.7e-01
+  11 CB0415      GNG        5.648e-03  1.476e-03     3.8  5.6e-04
+  12                        5.547e-03  5.911e-04     7.4  1.2e-12
+  13 DNp28       OCG        5.895e-03  2.703e-03     2.3  3.9e-02
+  14                        4.985e-03  4.320e-04     8.2  2.3e-15
+  15                        4.667e-03  6.329e-03    -0.5  8.2e-01
+  16 PS126       IPS_L      4.593e-03  2.503e-03     1.2  3.1e-01
+  17 CB0676      SPS_R      5.100e-03  6.440e-03    -0.4  8.1e-01
+  18 DNp40       IPS_R      4.748e-03  1.898e-03     2.3  4.2e-02
+  19                        4.681e-03  7.124e-04     4.7  1.1e-05
+  20 OCG02b      SPS_R      4.972e-03  1.649e-03     3.3  3.3e-03
+  21                        3.115e-03  2.811e-03     0.2  6.9e-01
+  22 PS276       SPS_R      4.025e-03  1.481e-03     1.8  1.3e-01
+  23 DNb06       IPS_L      3.856e-03  1.166e-03     2.4  3.7e-02
+  24                        3.517e-03  1.734e-03     1.4  2.3e-01
+  25 OCG01f      IPS_R      3.064e-03  8.391e-03    -1.5  9.3e-01
+  26                        3.196e-03  2.045e-03     0.9  4.4e-01
+  27 CB3716      IPS_R      2.996e-03  3.117e-03    -0.1  7.4e-01
+  28                        3.057e-03  1.497e-03     1.4  2.5e-01
+  29                        2.022e-03  2.948e-03    -0.4  8.1e-01
+  30                        2.428e-03  1.357e-03     1.0  3.7e-01
+  31 CB3716      IPS_L      2.645e-03  3.358e-03    -0.3  8.1e-01
+  32                        2.286e-03  1.890e-03     0.2  6.7e-01
+  33                        2.083e-03  2.299e-03    -0.2  7.7e-01
+  34                        2.077e-03  1.049e-03     0.8  4.6e-01
+  35                        1.941e-03  9.787e-04     1.2  3.1e-01
+  36                        1.911e-03  4.328e-04     3.2  3.7e-03
+  37                        1.698e-03  4.229e-03    -1.1  8.9e-01
+  38                        1.563e-03  3.658e-03    -0.9  8.6e-01
+  39                        1.563e-03  3.954e-03    -1.0  8.7e-01
+  40                        1.529e-03  1.570e-03    -0.0  7.4e-01
+  41                        8.929e-04  1.660e-03    -0.5  8.2e-01
+  42                        1.333e-03  9.121e-04     0.5  5.7e-01
+  43                        1.407e-03  1.617e-03    -0.2  7.7e-01
+  44 PS126       SPS_R      1.197e-03  9.591e-04     0.3  6.6e-01
+  45                        1.346e-03  2.256e-03    -0.6  8.3e-01
+  46                        1.251e-03  7.577e-04     0.5  5.9e-01
+  47                        1.251e-03  7.740e-04     0.6  5.7e-01
+  48                        1.028e-03  2.876e-04     1.8  1.3e-01
+  49                        1.123e-03  2.408e-03    -0.9  8.6e-01
+  50                        1.366e-03  2.837e-03    -0.7  8.4e-01

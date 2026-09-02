@@ -1,0 +1,822 @@
+[olfactory] 8691 nodes, 163102 edges, 100 sampled sources, 113 targets, 200 trials
+  real betweenness: 9s
+  trial 1/200  10s
+  trial 2/200  12s
+  trial 3/200  11s
+  trial 4/200  13s
+  trial 5/200  13s
+  trial 6/200  12s
+  trial 7/200  13s
+  trial 8/200  12s
+  trial 9/200  13s
+  trial 10/200  13s
+  trial 11/200  11s
+  trial 12/200  14s
+  trial 13/200  13s
+  trial 14/200  12s
+  trial 15/200  13s
+  trial 16/200  13s
+  trial 17/200  15s
+  trial 18/200  12s
+  trial 19/200  12s
+  trial 20/200  11s
+  trial 21/200  12s
+  trial 22/200  12s
+  trial 23/200  12s
+  trial 24/200  12s
+  trial 25/200  12s
+  trial 26/200  12s
+  trial 27/200  12s
+  trial 28/200  12s
+  trial 29/200  13s
+  trial 30/200  12s
+  trial 31/200  12s
+  trial 32/200  13s
+  trial 33/200  11s
+  trial 34/200  12s
+  trial 35/200  13s
+  trial 36/200  13s
+  trial 37/200  13s
+  trial 38/200  14s
+  trial 39/200  15s
+  trial 40/200  13s
+  trial 41/200  13s
+  trial 42/200  13s
+  trial 43/200  13s
+  trial 44/200  13s
+  trial 45/200  13s
+  trial 46/200  12s
+  trial 47/200  14s
+  trial 48/200  12s
+  trial 49/200  12s
+  trial 50/200  12s
+  trial 51/200  12s
+  trial 52/200  12s
+  trial 53/200  12s
+  trial 54/200  13s
+  trial 55/200  12s
+  trial 56/200  14s
+  trial 57/200  15s
+  trial 58/200  15s
+  trial 59/200  14s
+  trial 60/200  14s
+  trial 61/200  13s
+  trial 62/200  12s
+  trial 63/200  15s
+  trial 64/200  14s
+  trial 65/200  14s
+  trial 66/200  14s
+  trial 67/200  14s
+  trial 68/200  15s
+  trial 69/200  14s
+  trial 70/200  13s
+  trial 71/200  14s
+  trial 72/200  15s
+  trial 73/200  12s
+  trial 74/200  14s
+  trial 75/200  13s
+  trial 76/200  14s
+  trial 77/200  13s
+  trial 78/200  13s
+  trial 79/200  14s
+  trial 80/200  14s
+  trial 81/200  13s
+  trial 82/200  13s
+  trial 83/200  12s
+  trial 84/200  14s
+  trial 85/200  14s
+  trial 86/200  15s
+  trial 87/200  13s
+  trial 88/200  14s
+  trial 89/200  13s
+  trial 90/200  13s
+  trial 91/200  13s
+  trial 92/200  11s
+  trial 93/200  13s
+  trial 94/200  11s
+  trial 95/200  12s
+  trial 96/200  14s
+  trial 97/200  12s
+  trial 98/200  12s
+  trial 99/200  14s
+  trial 100/200  12s
+  trial 101/200  12s
+  trial 102/200  12s
+  trial 103/200  13s
+  trial 104/200  14s
+  trial 105/200  13s
+  trial 106/200  13s
+  trial 107/200  12s
+  trial 108/200  12s
+  trial 109/200  14s
+  trial 110/200  13s
+  trial 111/200  12s
+  trial 112/200  13s
+  trial 113/200  12s
+  trial 114/200  12s
+  trial 115/200  11s
+  trial 116/200  11s
+  trial 117/200  13s
+  trial 118/200  12s
+  trial 119/200  12s
+  trial 120/200  12s
+  trial 121/200  12s
+  trial 122/200  13s
+  trial 123/200  13s
+  trial 124/200  12s
+  trial 125/200  13s
+  trial 126/200  12s
+  trial 127/200  13s
+  trial 128/200  13s
+  trial 129/200  12s
+  trial 130/200  13s
+  trial 131/200  12s
+  trial 132/200  12s
+  trial 133/200  13s
+  trial 134/200  12s
+  trial 135/200  12s
+  trial 136/200  13s
+  trial 137/200  13s
+  trial 138/200  13s
+  trial 139/200  12s
+  trial 140/200  12s
+  trial 141/200  13s
+  trial 142/200  13s
+  trial 143/200  13s
+  trial 144/200  13s
+  trial 145/200  12s
+  trial 146/200  13s
+  trial 147/200  13s
+  trial 148/200  12s
+  trial 149/200  16s
+  trial 150/200  16s
+  trial 151/200  20s
+  trial 152/200  13s
+  trial 153/200  13s
+  trial 154/200  12s
+  trial 155/200  13s
+  trial 156/200  13s
+  trial 157/200  13s
+  trial 158/200  13s
+  trial 159/200  13s
+  trial 160/200  14s
+  trial 161/200  11s
+  trial 162/200  12s
+  trial 163/200  13s
+  trial 164/200  11s
+  trial 165/200  12s
+  trial 166/200  13s
+  trial 167/200  11s
+  trial 168/200  12s
+  trial 169/200  13s
+  trial 170/200  14s
+  trial 171/200  12s
+  trial 172/200  12s
+  trial 173/200  12s
+  trial 174/200  14s
+  trial 175/200  12s
+  trial 176/200  13s
+  trial 177/200  13s
+  trial 178/200  13s
+  trial 179/200  14s
+  trial 180/200  12s
+  trial 181/200  14s
+  trial 182/200  13s
+  trial 183/200  11s
+  trial 184/200  13s
+  trial 185/200  12s
+  trial 186/200  11s
+  trial 187/200  13s
+  trial 188/200  12s
+  trial 189/200  13s
+  trial 190/200  13s
+  trial 191/200  12s
+  trial 192/200  13s
+  trial 193/200  12s
+  trial 194/200  13s
+  trial 195/200  12s
+  trial 196/200  12s
+  trial 197/200  11s
+  trial 198/200  13s
+  trial 199/200  13s
+  trial 200/200  12s
+Null B -- degree-preserving edge swap (olfactory)
+============================================================
+
+graph            8691 nodes, 163102 edges
+sources          100 sampled of 1765 (seed 0)
+targets          113
+trials           200   (5x|E| swap attempts each)
+
+Preserves every neuron's in-degree, out-degree and out-synapse total;
+destroys which partners it connects to. A neuron that keeps a high
+betweenness here is a bottleneck by position, not by connection count.
+
+top-50 above null, uncorrected p_emp<=0.05:  37/50
+top-50 above null, BH-FDR q_emp<=0.05:       37/50
+top-50 above null, BH-FDR q_z<=0.05:         37/50
+top-25  above null, BH-FDR q_z<=0.05:         20/25
+(empirical p floor is 1/(trials+1) = 0.0050)
+top-50 neurons whose null betweenness is exactly 0:  0/50
+median z:  5.32
+
+rank cell type   neuropil        real  null mean       z      q_z
+   1 v2LN30      AL_L       5.426e-05  7.178e-06    13.0  3.1e-38
+   2 lLN2T_c     AL_L       3.932e-05  3.302e-06    17.5  1.2e-67
+   3 v2LN30      AL_R       2.919e-05  6.300e-06     7.1  2.2e-12
+   4 lLN2T_c     AL_L       2.416e-05  2.882e-06    11.6  8.1e-31
+   5 il3LN6      AL_R       2.434e-05  8.272e-06     5.4  7.6e-08
+   6 MZ_lv2PN    AL_R       2.367e-05  4.956e-07    35.5 5.8e-274
+   7 MZ_lv2PN    AL_L       2.291e-05  6.415e-07    27.5 2.9e-165
+   8 AL-AST1     AL_L       1.865e-05  7.777e-07    20.8  6.2e-95
+   9 lLN2T_c     AL_R       1.596e-05  2.509e-06     7.9  3.6e-15
+  10 AL-AST1     VES_R      1.706e-05  6.365e-07    20.1  5.2e-89
+  11 DP1m_adPN   AL_R       1.034e-05  5.813e-06     1.4  9.8e-02
+  12 il3LN6      AL_L       1.111e-05  7.303e-06     1.1  1.5e-01
+  13 DP1m_adPN   AL_L       1.572e-05  5.724e-06     3.8  1.2e-04
+  14 VESa1_P02   AVLP_R     1.044e-05  4.479e-07    16.1  1.5e-57
+  15 VESa1_P02   AVLP_L     9.377e-06  3.987e-07    11.6  8.1e-31
+  16 lLN2F_b     AL_L       1.422e-05  8.529e-06     1.7  6.1e-02
+  17 LHPV10b1    LH_R       6.913e-06  5.561e-07    10.1  1.1e-23
+  18 lLN2T_c     AL_R       1.007e-05  3.417e-06     3.4  5.3e-04
+  19 CRE011      SMP_R      5.576e-06  1.560e-06     2.7  4.9e-03
+  20 VES079      VES_R      6.489e-06  9.688e-08    23.4 2.0e-120
+  21 LHPV10b1    LH_L       8.370e-06  4.187e-07    12.8  5.0e-37
+  22 DM1_lPN     AL_L       4.516e-06  4.708e-06    -0.1  5.8e-01
+  23 lLN2F_b     AL_L       2.728e-06  7.598e-06    -1.5  9.4e-01
+  24 CRE011      SMP_L      6.887e-06  1.711e-06     3.4  5.3e-04
+  25 CB0448      GNG        5.258e-06  1.694e-07    12.6  3.2e-36
+  26 ALBN1       AL_L       5.245e-06  1.412e-06     3.1  1.6e-03
+  27 LHPD5c1     LH_R       2.238e-06  4.949e-07     2.8  3.8e-03
+  28 LHPV10d1    SMP_R      4.000e-06  6.074e-07     5.0  5.5e-07
+  29 PLP096      VES_R      5.125e-06  5.588e-07     5.9  4.7e-09
+  30 lLN2T_b     AL_R       3.231e-06  3.610e-06    -0.2  6.1e-01
+  31 DC1_adPN    AL_L       5.867e-06  1.925e-06     2.9  3.0e-03
+  32 LHAV2k8     LH_L       4.728e-06  3.455e-07     7.5  1.2e-13
+  33 VA2_adPN    AL_L       7.456e-06  2.536e-06     3.1  1.6e-03
+  34 PLP096      VES_L      4.834e-06  5.686e-07     5.5  4.2e-08
+  35 VM4_adPN    AL_L       4.490e-06  5.165e-07     5.3  1.3e-07
+  36 VES013      VES_L      4.463e-06  2.678e-07     8.5  2.3e-17
+  37 LHPD5c1     LH_L       6.675e-06  3.723e-07    10.0  2.3e-23
+  38 PVLP076     AVLP_R     4.013e-06  4.645e-07     5.5  3.4e-08
+  39 AL-MBDL1    AL_R       2.993e-06  2.117e-06     0.4  3.9e-01
+  40 DNb05       PLP_L      3.788e-06  3.310e-07     6.2  7.5e-10
+  41 CB0196      PLP_L      3.351e-06  7.481e-07     3.1  1.6e-03
+  42 lLN2F_b     AL_R       6.887e-06  8.343e-06    -0.4  7.0e-01
+  43 lLN2P_c     AL_L       9.098e-06  1.291e-06     6.4  2.6e-10
+  44 VL2a_adPN   AL_R       9.403e-07  2.229e-06    -0.8  8.1e-01
+  45 VA6_adPN    AL_L       3.430e-06  1.784e-06     1.1  1.6e-01
+  46 VM6_adPN    AL_R       3.827e-06  1.947e-06     1.3  1.2e-01
+  47 DNb05       SPS_R      3.178e-06  4.166e-07     4.9  1.0e-06
+  48 DNpe002     GNG        3.245e-06  6.105e-08    15.4  2.7e-53
+  49 DM1_lPN     AL_R       3.073e-06  3.154e-06    -0.0  5.7e-01
+  50 VA6_adPN    AL_R       2.344e-06  2.150e-06     0.1  5.1e-01
+
+[mechanosensory] 13564 nodes, 373211 edges, 100 sampled sources, 1114 targets, 200 trials
+  real betweenness: 21s
+  trial 1/200  32s
+  trial 2/200  29s
+  trial 3/200  30s
+  trial 4/200  33s
+  trial 5/200  29s
+  trial 6/200  33s
+  trial 7/200  31s
+  trial 8/200  33s
+  trial 9/200  28s
+  trial 10/200  27s
+  trial 11/200  31s
+  trial 12/200  27s
+  trial 13/200  27s
+  trial 14/200  26s
+  trial 15/200  27s
+  trial 16/200  55s
+  trial 17/200  42s
+  trial 18/200  52s
+  trial 19/200  53s
+  trial 20/200  53s
+  trial 21/200  44s
+  trial 22/200  54s
+  trial 23/200  45s
+  trial 24/200  52s
+  trial 25/200  47s
+  trial 26/200  52s
+  trial 27/200  49s
+  trial 28/200  46s
+  trial 29/200  52s
+  trial 30/200  57s
+  trial 31/200  46s
+  trial 32/200  54s
+  trial 33/200  48s
+  trial 34/200  45s
+  trial 35/200  52s
+  trial 36/200  46s
+  trial 37/200  53s
+  trial 38/200  45s
+  trial 39/200  51s
+  trial 40/200  48s
+  trial 41/200  53s
+  trial 42/200  43s
+  trial 43/200  46s
+  trial 44/200  51s
+  trial 45/200  67s
+  trial 46/200  53s
+  trial 47/200  44s
+  trial 48/200  54s
+  trial 49/200  51s
+  trial 50/200  47s
+  trial 51/200  47s
+  trial 52/200  52s
+  trial 53/200  51s
+  trial 54/200  46s
+  trial 55/200  45s
+  trial 56/200  48s
+  trial 57/200  45s
+  trial 58/200  45s
+  trial 59/200  45s
+  trial 60/200  53s
+  trial 61/200  51s
+  trial 62/200  45s
+  trial 63/200  55s
+  trial 64/200  42s
+  trial 65/200  33s
+  trial 66/200  30s
+  trial 67/200  28s
+  trial 68/200  31s
+  trial 69/200  27s
+  trial 70/200  30s
+  trial 71/200  29s
+  trial 72/200  32s
+  trial 73/200  47s
+  trial 74/200  48s
+  trial 75/200  54s
+  trial 76/200  47s
+  trial 77/200  53s
+  trial 78/200  52s
+  trial 79/200  46s
+  trial 80/200  47s
+  trial 81/200  54s
+  trial 82/200  53s
+  trial 83/200  55s
+  trial 84/200  45s
+  trial 85/200  46s
+  trial 86/200  48s
+  trial 87/200  57s
+  trial 88/200  41s
+  trial 89/200  43s
+  trial 90/200  53s
+  trial 91/200  52s
+  trial 92/200  53s
+  trial 93/200  44s
+  trial 94/200  47s
+  trial 95/200  53s
+  trial 96/200  48s
+  trial 97/200  56s
+  trial 98/200  48s
+  trial 99/200  53s
+  trial 100/200  55s
+  trial 101/200  49s
+  trial 102/200  40s
+  trial 103/200  34s
+  trial 104/200  40s
+  trial 105/200  36s
+  trial 106/200  43s
+  trial 107/200  49s
+  trial 108/200  44s
+  trial 109/200  51s
+  trial 110/200  45s
+  trial 111/200  47s
+  trial 112/200  48s
+  trial 113/200  42s
+  trial 114/200  49s
+  trial 115/200  49s
+  trial 116/200  42s
+  trial 117/200  43s
+  trial 118/200  49s
+  trial 119/200  42s
+  trial 120/200  50s
+  trial 121/200  35s
+  trial 122/200  38s
+  trial 123/200  32s
+  trial 124/200  35s
+  trial 125/200  30s
+  trial 126/200  30s
+  trial 127/200  29s
+  trial 128/200  38s
+  trial 129/200  38s
+  trial 130/200  37s
+  trial 131/200  35s
+  trial 132/200  32s
+  trial 133/200  38s
+  trial 134/200  32s
+  trial 135/200  32s
+  trial 136/200  35s
+  trial 137/200  31s
+  trial 138/200  32s
+  trial 139/200  35s
+  trial 140/200  37s
+  trial 141/200  31s
+  trial 142/200  35s
+  trial 143/200  30s
+  trial 144/200  41s
+  trial 145/200  32s
+  trial 146/200  35s
+  trial 147/200  34s
+  trial 148/200  33s
+  trial 149/200  35s
+  trial 150/200  30s
+  trial 151/200  29s
+  trial 152/200  33s
+  trial 153/200  29s
+  trial 154/200  34s
+  trial 155/200  29s
+  trial 156/200  36s
+  trial 157/200  32s
+  trial 158/200  30s
+  trial 159/200  35s
+  trial 160/200  34s
+  trial 161/200  33s
+  trial 162/200  37s
+  trial 163/200  35s
+  trial 164/200  30s
+  trial 165/200  37s
+  trial 166/200  34s
+  trial 167/200  33s
+  trial 168/200  37s
+  trial 169/200  32s
+  trial 170/200  33s
+  trial 171/200  36s
+  trial 172/200  30s
+  trial 173/200  36s
+  trial 174/200  34s
+  trial 175/200  33s
+  trial 176/200  36s
+  trial 177/200  29s
+  trial 178/200  34s
+  trial 179/200  34s
+  trial 180/200  34s
+  trial 181/200  28s
+  trial 182/200  29s
+  trial 183/200  30s
+  trial 184/200  30s
+  trial 185/200  30s
+  trial 186/200  30s
+  trial 187/200  29s
+  trial 188/200  35s
+  trial 189/200  33s
+  trial 190/200  32s
+  trial 191/200  33s
+  trial 192/200  30s
+  trial 193/200  34s
+  trial 194/200  31s
+  trial 195/200  34s
+  trial 196/200  28s
+  trial 197/200  34s
+  trial 198/200  30s
+  trial 199/200  33s
+  trial 200/200  29s
+Null B -- degree-preserving edge swap (mechanosensory)
+============================================================
+
+graph            13564 nodes, 373211 edges
+sources          100 sampled of 1675 (seed 0)
+targets          1114
+trials           200   (5x|E| swap attempts each)
+
+Preserves every neuron's in-degree, out-degree and out-synapse total;
+destroys which partners it connects to. A neuron that keeps a high
+betweenness here is a bottleneck by position, not by connection count.
+
+top-50 above null, uncorrected p_emp<=0.05:  43/50
+top-50 above null, BH-FDR q_emp<=0.05:       43/50
+top-50 above null, BH-FDR q_z<=0.05:         43/50
+top-25  above null, BH-FDR q_z<=0.05:         20/25
+(empirical p floor is 1/(trials+1) = 0.0050)
+top-50 neurons whose null betweenness is exactly 0:  0/50
+median z:  6.41
+
+rank cell type   neuropil        real  null mean       z      q_z
+   1 AN_GNG_89   GNG        1.550e-05  6.957e-07    11.2  6.8e-29
+   2 DNg62       GNG        1.415e-05  1.657e-07    22.6 5.3e-112
+   3 PS100       GNG        1.756e-05  4.213e-06     4.4  7.9e-06
+   4 AN_GNG_89   GNG        2.670e-05  8.227e-07    18.5  2.1e-75
+   5 DNg84       GNG        3.116e-05  1.884e-06    14.2  3.4e-45
+   6 DNge132     GNG        6.058e-05  1.189e-06    31.1 2.3e-210
+   7 AVLP080     AVLP_R     1.853e-05  1.319e-05     1.0  1.7e-01
+   8 CB0021      VES_L      4.737e-05  2.198e-06    23.4 9.4e-120
+   9 DNge132     GNG        2.680e-05  7.632e-07    18.4  8.8e-75
+  10 CB0021      VES_R      2.844e-05  2.948e-06    11.0  7.2e-28
+  11 DNg62       GNG        1.814e-05  3.343e-07    15.7  9.8e-55
+  12 AVLP080     AVLP_L     1.883e-05  1.459e-05     0.7  2.5e-01
+  13 CB0574      SPS_R      3.013e-05  1.751e-06    14.8  7.6e-49
+  14 DNg98       GNG        2.595e-05  1.006e-06    18.4  4.5e-75
+  15 DNa03       LAL_R      1.200e-05  5.775e-06     1.7  5.6e-02
+  16 DNg84       GNG        3.479e-06  1.487e-06     1.1  1.4e-01
+  17 CB0109      GNG        2.314e-05  1.992e-06     9.9  4.7e-23
+  18 CB0534      GNG        2.313e-05  2.570e-06     8.5  2.3e-17
+  19 CB0109      GNG        2.174e-05  1.650e-06    12.5  2.5e-35
+  20 AVLP340     AVLP_R     7.910e-06  2.427e-06     2.5  6.6e-03
+  21 AVLP340     AVLP_L     1.408e-05  2.155e-06     5.8  4.8e-09
+  22 CB0478      SAD        2.814e-05  3.832e-06     9.2  2.9e-20
+  23 DNg100      GNG        2.021e-05  2.508e-06     8.0  1.0e-15
+  24 DNg35       GNG        1.923e-05  8.025e-07     9.4  4.8e-21
+  25 DNa03       LAL_L      1.028e-05  6.000e-06     1.1  1.4e-01
+  26 CB3892b     GNG        1.387e-05  2.974e-06     4.4  7.2e-06
+  27 CB0443      GNG        1.593e-05  3.913e-06     4.0  4.3e-05
+  28 AN_GNG_SAD_2GNG        7.399e-06  3.575e-07     7.9  3.5e-15
+  29 PVLP115     GNG        9.715e-06  1.425e-06     4.8  1.4e-06
+  30 CB0442      GNG        1.141e-05  1.297e-06     6.9  4.7e-12
+  31 VES005      VES_L      2.299e-05  2.064e-06     9.9  9.5e-23
+  32 DNge027     GNG        8.405e-06  4.757e-07     7.9  2.7e-15
+  33 PVLP076     AVLP_R     2.159e-05  5.358e-06     4.6  2.8e-06
+  34 DNge123     GNG        1.578e-05  6.787e-07    12.0  1.2e-32
+  35 DNge027     GNG        1.126e-05  4.758e-07    12.1  1.9e-33
+  36 PS124       IPS_L      6.807e-06  3.258e-06     1.1  1.5e-01
+  37 CB0676      SPS_R      1.373e-05  3.004e-06     4.0  4.7e-05
+  38 PS100       GNG        6.306e-06  3.119e-06     1.2  1.2e-01
+  39 CB0443      GNG        2.048e-05  3.591e-06     5.9  3.5e-09
+  40 DNp35       AVLP_R     1.143e-05  3.582e-06     2.8  3.7e-03
+  41 CB0677      VES_R      1.454e-05  3.076e-06     4.3  1.3e-05
+  42 DNg16       GNG        1.230e-05  1.624e-06     5.3  8.8e-08
+  43 LAL073      LAL_L      9.759e-06  3.159e-06     2.7  4.3e-03
+  44 DNge065     GNG        8.437e-06  1.843e-06     3.9  6.5e-05
+  45 DNg85       GNG        1.959e-05  3.200e-07    22.9 3.8e-115
+  46 AN_AVLP_GNG_17GNG        8.046e-06  6.565e-07     5.7  8.2e-09
+  47 AN_multi_62 PVLP_L     1.092e-05  3.778e-07    11.6  1.2e-30
+  48 CB3916      GNG        1.453e-05  4.224e-06     3.3  5.9e-04
+  49 CB0676      IPS_L      1.092e-05  1.959e-06     4.3  1.0e-05
+  50 PS124       IPS_R      8.747e-06  2.710e-06     2.7  3.8e-03
+
+[visual] 24185 nodes, 236798 edges, 100 sampled sources, 105 targets, 200 trials
+  real betweenness: 24s
+  trial 1/200  24s
+  trial 2/200  27s
+  trial 3/200  28s
+  trial 4/200  27s
+  trial 5/200  28s
+  trial 6/200  28s
+  trial 7/200  26s
+  trial 8/200  27s
+  trial 9/200  26s
+  trial 10/200  27s
+  trial 11/200  25s
+  trial 12/200  28s
+  trial 13/200  26s
+  trial 14/200  27s
+  trial 15/200  32s
+  trial 16/200  41s
+  trial 17/200  32s
+  trial 18/200  28s
+  trial 19/200  26s
+  trial 20/200  29s
+  trial 21/200  26s
+  trial 22/200  29s
+  trial 23/200  27s
+  trial 24/200  24s
+  trial 25/200  26s
+  trial 26/200  27s
+  trial 27/200  27s
+  trial 28/200  27s
+  trial 29/200  26s
+  trial 30/200  25s
+  trial 31/200  27s
+  trial 32/200  27s
+  trial 33/200  36s
+  trial 34/200  46s
+  trial 35/200  46s
+  trial 36/200  45s
+  trial 37/200  42s
+  trial 38/200  43s
+  trial 39/200  43s
+  trial 40/200  45s
+  trial 41/200  45s
+  trial 42/200  46s
+  trial 43/200  47s
+  trial 44/200  46s
+  trial 45/200  42s
+  trial 46/200  41s
+  trial 47/200  50s
+  trial 48/200  48s
+  trial 49/200  39s
+  trial 50/200  44s
+  trial 51/200  45s
+  trial 52/200  43s
+  trial 53/200  45s
+  trial 54/200  44s
+  trial 55/200  49s
+  trial 56/200  44s
+  trial 57/200  43s
+  trial 58/200  41s
+  trial 59/200  49s
+  trial 60/200  42s
+  trial 61/200  46s
+  trial 62/200  44s
+  trial 63/200  28s
+  trial 64/200  25s
+  trial 65/200  25s
+  trial 66/200  26s
+  trial 67/200  25s
+  trial 68/200  26s
+  trial 69/200  26s
+  trial 70/200  28s
+  trial 71/200  24s
+  trial 72/200  29s
+  trial 73/200  26s
+  trial 74/200  26s
+  trial 75/200  27s
+  trial 76/200  24s
+  trial 77/200  27s
+  trial 78/200  27s
+  trial 79/200  26s
+  trial 80/200  25s
+  trial 81/200  29s
+  trial 82/200  36s
+  trial 83/200  44s
+  trial 84/200  45s
+  trial 85/200  45s
+  trial 86/200  43s
+  trial 87/200  44s
+  trial 88/200  43s
+  trial 89/200  42s
+  trial 90/200  43s
+  trial 91/200  45s
+  trial 92/200  48s
+  trial 93/200  41s
+  trial 94/200  42s
+  trial 95/200  42s
+  trial 96/200  45s
+  trial 97/200  46s
+  trial 98/200  42s
+  trial 99/200  44s
+  trial 100/200  43s
+  trial 101/200  45s
+  trial 102/200  43s
+  trial 103/200  47s
+  trial 104/200  48s
+  trial 105/200  45s
+  trial 106/200  46s
+  trial 107/200  42s
+  trial 108/200  43s
+  trial 109/200  41s
+  trial 110/200  45s
+  trial 111/200  42s
+  trial 112/200  31s
+  trial 113/200  26s
+  trial 114/200  26s
+  trial 115/200  25s
+  trial 116/200  27s
+  trial 117/200  27s
+  trial 118/200  28s
+  trial 119/200  25s
+  trial 120/200  24s
+  trial 121/200  26s
+  trial 122/200  27s
+  trial 123/200  26s
+  trial 124/200  32s
+  trial 125/200  32s
+  trial 126/200  28s
+  trial 127/200  29s
+  trial 128/200  31s
+  trial 129/200  29s
+  trial 130/200  28s
+  trial 131/200  29s
+  trial 132/200  32s
+  trial 133/200  31s
+  trial 134/200  28s
+  trial 135/200  36s
+  trial 136/200  33s
+  trial 137/200  28s
+  trial 138/200  29s
+  trial 139/200  31s
+  trial 140/200  29s
+  trial 141/200  29s
+  trial 142/200  26s
+  trial 143/200  29s
+  trial 144/200  28s
+  trial 145/200  30s
+  trial 146/200  29s
+  trial 147/200  32s
+  trial 148/200  28s
+  trial 149/200  28s
+  trial 150/200  28s
+  trial 151/200  27s
+  trial 152/200  28s
+  trial 153/200  27s
+  trial 154/200  26s
+  trial 155/200  28s
+  trial 156/200  28s
+  trial 157/200  27s
+  trial 158/200  29s
+  trial 159/200  28s
+  trial 160/200  28s
+  trial 161/200  30s
+  trial 162/200  28s
+  trial 163/200  26s
+  trial 164/200  30s
+  trial 165/200  30s
+  trial 166/200  28s
+  trial 167/200  29s
+  trial 168/200  28s
+  trial 169/200  28s
+  trial 170/200  34s
+  trial 171/200  35s
+  trial 172/200  31s
+  trial 173/200  32s
+  trial 174/200  27s
+  trial 175/200  33s
+  trial 176/200  33s
+  trial 177/200  32s
+  trial 178/200  31s
+  trial 179/200  28s
+  trial 180/200  29s
+  trial 181/200  28s
+  trial 182/200  33s
+  trial 183/200  32s
+  trial 184/200  25s
+  trial 185/200  28s
+  trial 186/200  27s
+  trial 187/200  27s
+  trial 188/200  27s
+  trial 189/200  27s
+  trial 190/200  28s
+  trial 191/200  26s
+  trial 192/200  27s
+  trial 193/200  29s
+  trial 194/200  29s
+  trial 195/200  27s
+  trial 196/200  27s
+  trial 197/200  30s
+  trial 198/200  30s
+  trial 199/200  29s
+  trial 200/200  28s
+Null B -- degree-preserving edge swap (visual)
+============================================================
+
+graph            24185 nodes, 236798 edges
+sources          100 sampled of 146 (seed 0)
+targets          105
+trials           200   (5x|E| swap attempts each)
+
+Preserves every neuron's in-degree, out-degree and out-synapse total;
+destroys which partners it connects to. A neuron that keeps a high
+betweenness here is a bottleneck by position, not by connection count.
+
+top-50 above null, uncorrected p_emp<=0.05:  45/50
+top-50 above null, BH-FDR q_emp<=0.05:       45/50
+top-50 above null, BH-FDR q_z<=0.05:         45/50
+top-25  above null, BH-FDR q_z<=0.05:         24/25
+(empirical p floor is 1/(trials+1) = 0.0050)
+top-50 neurons whose null betweenness is exactly 0:  0/50
+median z:  19.85
+
+rank cell type   neuropil        real  null mean       z      q_z
+   1 CB3916      GNG        7.869e-06  5.484e-08    77.2  0.0e+00
+   2 CB0415      GNG        4.205e-06  9.498e-09   147.3  0.0e+00
+   3 CB3716      IPS_R      3.967e-06  2.465e-08    57.9  0.0e+00
+   4 CB0415      GNG        3.521e-06  1.654e-08    70.1  0.0e+00
+   5 cM15        ME_R       3.338e-06  7.459e-08    34.1 4.6e-254
+   6 OCG01d      IPS_L      3.430e-06  6.161e-08    36.1 1.1e-285
+   7 CB0567      IPS_L      3.025e-06  6.977e-08    22.2 1.8e-109
+   8 cM15        ME_L       2.867e-06  6.648e-08    29.1 3.3e-186
+   9 CB3716      IPS_L      2.377e-06  2.624e-08    38.5  0.0e+00
+  10 CB0478      SAD        2.673e-06  2.178e-08    45.3  0.0e+00
+  11 OCG01d      SPS_R      2.278e-06  3.586e-08    29.9 1.0e-195
+  12 Sm41        ME_R       2.043e-06  6.245e-07     3.2  8.2e-04
+  13 OCG01e      IPS_L      2.088e-06  4.932e-08    23.2 9.4e-119
+  14 OA-AL2i1    ME_L       2.084e-06  3.985e-08    25.9 1.6e-147
+  15 DNp28       OCG        2.495e-06  2.060e-09   142.0  0.0e+00
+  16 CB1350      SAD        2.466e-06  1.034e-09   201.8  0.0e+00
+  17 DNp19       SPS_L      2.466e-06  3.659e-09   100.8  0.0e+00
+  18 DNp10       SPS_L      2.370e-06  1.727e-09   237.1  0.0e+00
+  19 Sm42        ME_R       1.588e-06  1.050e-06     1.2  1.2e-01
+  20 OCG01b      IPS_R      1.828e-06  3.221e-08    27.4 4.6e-165
+  21 OA-AL2i1    ME_R       1.705e-06  8.228e-08    14.3  1.3e-46
+  22 PS124       IPS_R      1.614e-06  4.755e-08    17.9  1.0e-71
+  23 DNp28       OCG        1.795e-06  1.266e-08    45.0  0.0e+00
+  24 OCG01e      IPS_R      8.789e-07  2.785e-08    14.2  8.0e-46
+  25 Sm41        ME_L       1.474e-06  4.016e-07     3.8  7.8e-05
+  26 Sm42        ME_L       1.453e-06  1.005e-06     1.0  1.6e-01
+  27 PS126       SPS_R      1.250e-06  1.898e-08    21.0  1.1e-97
+  28 OCG01b      IPS_L      1.404e-06  2.415e-08    23.3 1.2e-119
+  29 PS276       SPS_R      8.344e-07  1.434e-08    18.7  2.5e-78
+  30 CB0478      SAD        1.105e-06  1.472e-08    27.1 3.9e-162
+  31 OCG02b      SPS_R      7.079e-07  4.437e-09    35.6 1.9e-277
+  32 DNp40       IPS_R      1.298e-06  1.253e-08    33.8 2.4e-250
+  33 CB0676      SPS_R      1.105e-06  6.353e-08     9.3  9.5e-21
+  34 PS126       IPS_L      9.353e-07  2.359e-08    16.0  1.7e-57
+  35 CB0567      IPS_R      8.755e-07  3.692e-08    11.8  3.7e-32
+  36 MeMe_e02    ME_R       8.447e-07  6.131e-08     7.9  2.6e-15
+  37 MTe01b      SPS_L      8.447e-07  1.023e-07     6.1  7.6e-10
+  38 Pm14        ME_R       8.601e-07  2.067e-07     3.2  9.0e-04
+  39 Li33        LO_L       6.395e-07  3.387e-06    -3.3  1.0e+00
+  40 DNb06       IPS_L      7.746e-07  6.121e-09    28.6 3.5e-180
+  41 cM02b       ME_R       7.575e-07  3.116e-08    12.9  2.9e-38
+  42 OCG01f      IPS_R      4.890e-07  4.706e-08     4.8  1.2e-06
+  43 cM12        ME_R       4.514e-07  1.182e-08     7.2  3.7e-13
+  44 Sm36        ME_R       4.446e-07  8.554e-08     3.2  7.6e-04
+  45 Sm40        ME_R       5.831e-07  3.950e-07     0.6  2.7e-01
+  46 MTe19       ME_R       5.831e-07  1.680e-07     2.5  7.3e-03
+  47 MeMe_e02    ME_L       5.814e-07  5.246e-08     6.6  2.3e-11
+  48 MTe18       PLP_R      5.660e-07  4.496e-08     6.1  7.6e-10
+  49 MeLp1       ME_L       5.044e-07  2.628e-07     1.0  1.6e-01
+  50 MeMe_e02    ME_R       4.942e-07  4.692e-08     5.0  2.8e-07
+
