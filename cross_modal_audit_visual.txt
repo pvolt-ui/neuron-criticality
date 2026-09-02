@@ -1,0 +1,13 @@
+Cross-modal bottleneck audit -- node-deletion test
+====================================================================
+
+--- visual ---
+  100 sampled sources x 422 descending targets   (42200 connected pairs)
+  top-50 control detour: 0.601% +/- 1.301   (max 4.509%)
+  rank-1000+ control:    0.001% +/- 0.001
+
+  720575940608545219  AVLP080   AVLP_R  rank  34  detour  0.065%  z=-0.41  cut 0  hops 2->1
+  720575940627796298  AVLP080   AVLP_L  rank  48  detour  0.049%  z=-0.42  cut 0  hops 2->1
+  720575940623702345  CB0677    VES_R   rank  46  detour  0.164%  z=-0.34  cut 0  hops 2->1
+  720575940619636615  PS124     IPS_R   rank  19  detour  0.062%  z=-0.41  cut 0  hops 2->1
+

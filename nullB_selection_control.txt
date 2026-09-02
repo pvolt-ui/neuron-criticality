@@ -1,0 +1,12 @@
+
+=== ocellar ===
+REAL     survivors q_z<=.05: top50 45/50  top25 24/25   median z 19.85  max z 237.1
+CONTROL  survivors q_z<=.05: top50 2.8 ± 3.4  top25 1.4 ± 1.5   median z 0.55  max z 3.4   (5 pseudo-real graphs, 200 trials each)
+
+=== olfactory ===
+REAL     survivors q_z<=.05: top50 37/50  top25 20/25   median z 5.32  max z 35.5
+CONTROL  survivors q_z<=.05: top50 16.0 ± 0.8  top25 7.3 ± 2.5   median z 1.18  max z 8.1   (3 pseudo-real graphs, 50 trials each)
+
+=== mechanosensory ===
+REAL     survivors q_z<=.05: top50 43/50  top25 20/25   median z 6.41  max z 31.1
+CONTROL  survivors q_z<=.05: top50 34.0 ± 2.2  top25 15.3 ± 2.4   median z 2.73  max z 14.6   (3 pseudo-real graphs, 50 trials each)

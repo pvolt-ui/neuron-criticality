@@ -1,0 +1,9 @@
+[visual] 60467 nodes, 1231957 edges, 150/17004 sources, 422 targets
+  done in 263s
+  saved /home/pchodavarapu/neuron-criticality/./ranked_visual_sampled.csv
+[ocellar] 386 nodes, 2095 edges, 142/142 sources, 90 targets
+  done in 0s
+  saved /home/pchodavarapu/neuron-criticality/./ranked_ocellar_sampled.csv
+[visual] 83016 nodes, 2908395 edges, 150/29459 sources, 743 targets
+  done in 585s
+  saved /home/pchodavarapu/neuron-criticality/mcns/ranked_visual.csv

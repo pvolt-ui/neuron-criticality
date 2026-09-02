@@ -1,0 +1,71 @@
+Null B -- degree-preserving edge swap (mechanosensory)
+============================================================
+
+graph            13564 nodes, 373211 edges
+sources          100 sampled of 1675 (seed 0)
+targets          1114
+trials           200   (5x|E| swap attempts each)
+
+Preserves every neuron's in-degree, out-degree and out-synapse total;
+destroys which partners it connects to. A neuron that keeps a high
+betweenness here is a bottleneck by position, not by connection count.
+
+top-50 above null, uncorrected p_emp<=0.05:  43/50
+top-50 above null, BH-FDR q_emp<=0.05:       43/50
+top-50 above null, BH-FDR q_z<=0.05:         43/50
+top-25  above null, BH-FDR q_z<=0.05:         20/25
+(empirical p floor is 1/(trials+1) = 0.0050)
+top-50 neurons whose null betweenness is exactly 0:  0/50
+median z:  6.41
+
+rank cell type   neuropil        real  null mean       z      q_z
+   1 AN_GNG_89   GNG        1.550e-05  6.957e-07    11.2  6.8e-29
+   2 DNg62       GNG        1.415e-05  1.657e-07    22.6 5.3e-112
+   3 PS100       GNG        1.756e-05  4.213e-06     4.4  7.9e-06
+   4 AN_GNG_89   GNG        2.670e-05  8.227e-07    18.5  2.1e-75
+   5 DNg84       GNG        3.116e-05  1.884e-06    14.2  3.4e-45
+   6 DNge132     GNG        6.058e-05  1.189e-06    31.1 2.3e-210
+   7 AVLP080     AVLP_R     1.853e-05  1.319e-05     1.0  1.7e-01
+   8 CB0021      VES_L      4.737e-05  2.198e-06    23.4 9.4e-120
+   9 DNge132     GNG        2.680e-05  7.632e-07    18.4  8.8e-75
+  10 CB0021      VES_R      2.844e-05  2.948e-06    11.0  7.2e-28
+  11 DNg62       GNG        1.814e-05  3.343e-07    15.7  9.8e-55
+  12 AVLP080     AVLP_L     1.883e-05  1.459e-05     0.7  2.5e-01
+  13 CB0574      SPS_R      3.013e-05  1.751e-06    14.8  7.6e-49
+  14 DNg98       GNG        2.595e-05  1.006e-06    18.4  4.5e-75
+  15 DNa03       LAL_R      1.200e-05  5.775e-06     1.7  5.6e-02
+  16 DNg84       GNG        3.479e-06  1.487e-06     1.1  1.4e-01
+  17 CB0109      GNG        2.314e-05  1.992e-06     9.9  4.7e-23
+  18 CB0534      GNG        2.313e-05  2.570e-06     8.5  2.3e-17
+  19 CB0109      GNG        2.174e-05  1.650e-06    12.5  2.5e-35
+  20 AVLP340     AVLP_R     7.910e-06  2.427e-06     2.5  6.6e-03
+  21 AVLP340     AVLP_L     1.408e-05  2.155e-06     5.8  4.8e-09
+  22 CB0478      SAD        2.814e-05  3.832e-06     9.2  2.9e-20
+  23 DNg100      GNG        2.021e-05  2.508e-06     8.0  1.0e-15
+  24 DNg35       GNG        1.923e-05  8.025e-07     9.4  4.8e-21
+  25 DNa03       LAL_L      1.028e-05  6.000e-06     1.1  1.4e-01
+  26 CB3892b     GNG        1.387e-05  2.974e-06     4.4  7.2e-06
+  27 CB0443      GNG        1.593e-05  3.913e-06     4.0  4.3e-05
+  28 AN_GNG_SAD_2GNG        7.399e-06  3.575e-07     7.9  3.5e-15
+  29 PVLP115     GNG        9.715e-06  1.425e-06     4.8  1.4e-06
+  30 CB0442      GNG        1.141e-05  1.297e-06     6.9  4.7e-12
+  31 VES005      VES_L      2.299e-05  2.064e-06     9.9  9.5e-23
+  32 DNge027     GNG        8.405e-06  4.757e-07     7.9  2.7e-15
+  33 PVLP076     AVLP_R     2.159e-05  5.358e-06     4.6  2.8e-06
+  34 DNge123     GNG        1.578e-05  6.787e-07    12.0  1.2e-32
+  35 DNge027     GNG        1.126e-05  4.758e-07    12.1  1.9e-33
+  36 PS124       IPS_L      6.807e-06  3.258e-06     1.1  1.5e-01
+  37 CB0676      SPS_R      1.373e-05  3.004e-06     4.0  4.7e-05
+  38 PS100       GNG        6.306e-06  3.119e-06     1.2  1.2e-01
+  39 CB0443      GNG        2.048e-05  3.591e-06     5.9  3.5e-09
+  40 DNp35       AVLP_R     1.143e-05  3.582e-06     2.8  3.7e-03
+  41 CB0677      VES_R      1.454e-05  3.076e-06     4.3  1.3e-05
+  42 DNg16       GNG        1.230e-05  1.624e-06     5.3  8.8e-08
+  43 LAL073      LAL_L      9.759e-06  3.159e-06     2.7  4.3e-03
+  44 DNge065     GNG        8.437e-06  1.843e-06     3.9  6.5e-05
+  45 DNg85       GNG        1.959e-05  3.200e-07    22.9 3.8e-115
+  46 AN_AVLP_GNG_17GNG        8.046e-06  6.565e-07     5.7  8.2e-09
+  47 AN_multi_62 PVLP_L     1.092e-05  3.778e-07    11.6  1.2e-30
+  48 CB3916      GNG        1.453e-05  4.224e-06     3.3  5.9e-04
+  49 CB0676      IPS_L      1.092e-05  1.959e-06     4.3  1.0e-05
+  50 PS124       IPS_R      8.747e-06  2.710e-06     2.7  3.8e-03

@@ -1,0 +1,71 @@
+Null B -- degree-preserving edge swap (visual)
+============================================================
+
+graph            60467 nodes, 1231957 edges
+sources          100 sampled of 17004 (seed 0)
+targets          422
+trials           30   (5x|E| swap attempts each)
+
+Preserves every neuron's in-degree, out-degree and out-synapse total;
+destroys which partners it connects to. A neuron that keeps a high
+betweenness here is a bottleneck by position, not by connection count.
+
+top-50 above null, uncorrected p_emp<=0.05:  23/50
+top-50 above null, BH-FDR q_emp<=0.05:       0/50
+top-50 above null, BH-FDR q_z<=0.05:         29/50
+top-25  above null, BH-FDR q_z<=0.05:         16/25
+(empirical p floor is 1/(trials+1) = 0.0323)
+top-50 neurons whose null betweenness is exactly 0:  1/50
+median z:  3.00
+
+rank cell type   neuropil        real  null mean       z      q_z
+   1 LPi15       LOP_R      1.499e-06  7.299e-07     3.0  2.6e-03
+   2 LPi15       LOP_L      1.497e-06  5.146e-07     4.3  2.2e-05
+   3 Am1         LOP_L      1.469e-06  2.254e-07     6.0  3.8e-09
+   4 Am1         LOP_R      9.261e-07  2.921e-07     4.3  2.0e-05
+   5 LPi14       LOP_R      7.976e-07  4.364e-07     2.1  3.4e-02
+   6 CT1         LO_L       9.264e-07  9.730e-07    -0.2  6.4e-01
+   7 CT1         LO_R       4.959e-07  8.623e-07    -2.1  9.8e-01
+   8 Sm41        ME_R       4.784e-07  8.937e-08     5.3  1.9e-07
+   9 Sm42        ME_R       4.029e-07  2.573e-07     1.2  1.7e-01
+  10 Li31        LO_L       8.192e-07  4.807e-07     1.7  7.0e-02
+  11 T5b         LOP_R      4.685e-07  0.000e+00     inf  0.0e+00
+  12 Li31        LO_R       5.232e-07  4.597e-07     0.2  4.9e-01
+  13 LT62        LO_R       2.741e-07  2.383e-07     0.3  4.7e-01
+  14 LT79        LO_R       5.495e-07  1.253e-07     3.8  1.4e-04
+  15 PVLP015     AVLP_R     4.360e-07  4.147e-08     4.4  1.5e-05
+  16 PVLP011     PVLP_R     3.545e-07  4.037e-07    -0.3  6.4e-01
+  17 H2          LOP_R      4.595e-07  1.304e-07     2.5  1.0e-02
+  18 AVLP435a    AVLP_R     4.633e-07  3.920e-08     8.3  1.6e-16
+  19 PS124       IPS_R      4.767e-07  1.880e-08    15.1  7.9e-51
+  20 LPi14       LOP_L      4.945e-07  3.054e-07     1.1  1.9e-01
+  21 LPT26       LOP_R      3.873e-07  5.455e-08     4.0  6.8e-05
+  22 AVLP435a    AVLP_L     2.935e-07  4.003e-08     4.1  5.2e-05
+  23 PLP018      PLP_R      3.214e-07  1.962e-08    10.9  1.9e-27
+  24 WED075      IPS_R      4.073e-07  2.540e-08    12.2  6.2e-34
+  25 LT1d        LO_R       3.816e-07  3.699e-07     0.1  5.5e-01
+  26 LT79        LO_L       2.191e-07  1.167e-07     1.0  2.3e-01
+  27 LT1d        LO_L       3.042e-07  3.601e-07    -0.3  6.4e-01
+  28 AVLP479     PVLP_L     3.353e-07  4.385e-08     6.9  7.9e-12
+  29 PS047b      IPS_L      3.411e-07  1.207e-08    22.9 4.2e-115
+  30 AVLP077     AVLP_R     4.264e-07  5.889e-08     5.0  1.0e-06
+  31 MeMe_e13    ME_L       4.699e-07  2.552e-07     1.5  1.0e-01
+  32 WED075      IPS_L      4.034e-07  2.189e-08    17.5  6.6e-68
+  33 LPT26       LOP_L      4.338e-07  3.054e-08    11.2  1.6e-28
+  34 AVLP080     AVLP_R     3.550e-07  3.201e-07     0.2  4.9e-01
+  35 PVLP150     AVLP_R     3.988e-07  2.859e-08    11.5  6.8e-30
+  36 Li33        LO_L       3.288e-07  7.044e-07    -1.3  9.5e-01
+  37 PVLP061     AVLP_R     1.917e-07  1.321e-07     0.7  3.1e-01
+  38 Sm41        ME_L       1.357e-07  5.213e-08     1.0  2.3e-01
+  39 PVLP015     PVLP_L     3.572e-07  5.549e-08     2.8  4.4e-03
+  40 LT11        LO_R       2.672e-07  1.346e-07     1.2  1.8e-01
+  41 PVLP141     AVLP_R     3.416e-07  3.237e-08     8.7  5.5e-18
+  42 CB0486      IPS_R      3.132e-07  7.321e-09    23.1 8.4e-117
+  43 Li30        LO_R       5.826e-07  3.430e-07     1.8  6.6e-02
+  44 AVLP077     AVLP_L     2.295e-07  4.508e-08     4.2  3.1e-05
+  45 PVLP150     PVLP_L     2.281e-07  1.440e-08     9.3  3.3e-20
+  46 CB0677      VES_R      4.122e-07  2.094e-08    16.8  1.3e-62
+  47 Li33        LO_R       4.086e-07  7.668e-07    -1.5  9.5e-01
+  48 AVLP080     AVLP_L     2.899e-07  2.386e-07     0.3  4.7e-01
+  49 Sm42        ME_L       1.343e-07  1.411e-07    -0.1  6.1e-01
+  50 Li30        LO_L       6.529e-07  2.728e-07     3.2  1.6e-03

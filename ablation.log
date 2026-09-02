@@ -1,0 +1,124 @@
+
+=== olfactory: 8691 nodes, 100 sources, 113 targets, 12 validated cell types
+  controls k=2 done
+  controls k=4 done
+  lLN2T_c      k=4   detour   4.379%  cut 0     (single copy:  0.390%, cut 0)  z_top +7.07
+  lLN2F_b      k=4   detour   1.182%  cut 0     (single copy:  0.070%, cut 0)  z_top +0.95
+  v2LN30       k=2   detour   4.979%  cut 0     (single copy:  3.515%, cut 0)  z_top +13.04
+  il3LN6       k=2   detour   2.017%  cut 0     (single copy:  1.110%, cut 0)  z_top +4.78
+  MZ_lv2PN     k=2   detour   3.006%  cut 0     (single copy:  1.612%, cut 0)  z_top +7.54
+  AL-AST1      k=2   detour   1.974%  cut 0     (single copy:  1.122%, cut 0)  z_top +4.66
+  DP1m_adPN    k=2   detour   0.682%  cut 0     (single copy:  0.262%, cut 0)  z_top +1.06
+  VESa1_P02    k=2   detour   0.986%  cut 0     (single copy:  0.453%, cut 0)  z_top +1.90
+  LHPV10b1     k=2   detour   0.314%  cut 0     (single copy:  0.133%, cut 0)  z_top +0.03
+  CRE011       k=2   detour   0.552%  cut 0     (single copy:  0.148%, cut 0)  z_top +0.69
+  VES079       k=2   detour   0.532%  cut 0     (single copy:  0.146%, cut 0)  z_top +0.64
+  CB0448       k=2   detour   0.332%  cut 0     (single copy:  0.332%, cut 0)  z_top +0.08
+
+=== mechanosensory: 13564 nodes, 100 sources, 1114 targets, 15 validated cell types
+  controls k=1 done
+  controls k=2 done
+  AN_GNG_89    k=2   detour   0.803%  cut 3342  (single copy:  0.301%, cut 1114)  z_top +4.41
+  DNg62        k=2   detour   0.793%  cut 0     (single copy:  0.474%, cut 0)  z_top +4.34
+  PS100        k=2   detour   0.298%  cut 0     (single copy:  0.201%, cut 0)  z_top +0.92
+  DNg84        k=2   detour   0.590%  cut 3336  (single copy:  0.149%, cut 3339)  z_top +2.93
+  DNge132      k=2   detour   0.944%  cut 2224  (single copy:  0.651%, cut 1113)  z_top +5.38
+  CB0021       k=2   detour   0.390%  cut 0     (single copy:  0.226%, cut 0)  z_top +1.56
+  CB0574       k=2   detour   0.731%  cut 0     (single copy:  0.665%, cut 0)  z_top +3.91
+  DNa03        k=2   detour   0.219%  cut 0     (single copy:  0.097%, cut 0)  z_top +0.37
+  CB0109       k=2   detour   1.260%  cut 2228  (single copy:  1.019%, cut 1114)  z_top +7.57
+  CB0534       k=2   detour   0.142%  cut 100   (single copy:  0.085%, cut 0)  z_top -0.16
+  AVLP340      k=2   detour   0.330%  cut 0     (single copy:  0.141%, cut 0)  z_top +1.14
+  CB0478       k=2   detour   0.518%  cut 0     (single copy:  0.427%, cut 0)  z_top +2.44
+  DNg100       k=2   detour   0.082%  cut 0     (single copy:  0.073%, cut 0)  z_top -0.57
+  DNg35        k=2   detour   0.295%  cut 4448  (single copy:  0.280%, cut 1113)  z_top +0.90
+  DNg98        k=1   detour   0.260%  cut 0     (single copy:  0.260%, cut 0)  z_top +6.45
+
+=== visual: 24185 nodes, 100 sources, 105 targets, 16 validated cell types
+  controls k=1 done
+  controls k=2 done
+  CB0415       k=2   detour   3.421%  cut 0     (single copy:  1.546%, cut 0)  z_top +5.24
+  CB3716       k=2   detour   2.450%  cut 0     (single copy:  2.044%, cut 0)  z_top +3.57
+  cM15         k=2   detour   1.781%  cut 0     (single copy:  0.783%, cut 0)  z_top +2.42
+  OCG01d       k=2   detour   9.631%  cut 1890  (single copy:  7.258%, cut 1050)  z_top +15.92
+  CB0567       k=2   detour   1.623%  cut 0     (single copy:  0.568%, cut 0)  z_top +2.14
+  CB0478       k=2   detour   2.001%  cut 0     (single copy:  1.492%, cut 0)  z_top +2.79
+  Sm41         k=2   detour   1.142%  cut 0     (single copy:  0.716%, cut 0)  z_top +1.32
+  OCG01e       k=2   detour   2.312%  cut 945   (single copy:  1.302%, cut 525)  z_top +3.33
+  OA-AL2i1     k=2   detour   1.048%  cut 0     (single copy:  0.476%, cut 0)  z_top +1.15
+  DNp28        k=2   detour   0.561%  cut 1854  (single copy:  0.003%, cut 1040)  z_top +0.32
+  CB1350       k=2   detour   0.001%  cut 1030  (single copy:  0.000%, cut 1030)  z_top -0.65
+  DNp19        k=2   detour   0.003%  cut 1020  (single copy:  0.000%, cut 1030)  z_top -0.64
+  OCG01b       k=2   detour   2.606%  cut 630   (single copy:  1.634%, cut 420)  z_top +3.83
+  CB3916       k=1   detour   3.610%  cut 0     (single copy:  3.610%, cut 0)  z_top +7.35
+  DNp10        k=1   detour   1.545%  cut 0     (single copy:  1.545%, cut 0)  z_top +2.88
+  PS124        k=1   detour   0.295%  cut 0     (single copy:  0.295%, cut 0)  z_top +0.17
+
+Cell-type ablation -- is the unit of criticality the neuron or the type?
+==========================================================================
+
+--- olfactory ---
+  random_mid  detour  0.000% cut    0.0 (size-matched draws)
+  random_top  detour  0.496% cut    0.0 (size-matched draws)
+  cell types that cut >=1 pair: 0/12   single-copy deletions that cut >=1: 0/12
+
+  cell type      n   detour    cut   1-copy  1-cut  z vs top
+  v2LN30         2   4.979%      0   3.515%      0    +13.04
+  lLN2T_c        4   4.379%      0   0.390%      0     +7.07
+  MZ_lv2PN       2   3.006%      0   1.612%      0     +7.54
+  il3LN6         2   2.017%      0   1.110%      0     +4.78
+  AL-AST1        2   1.974%      0   1.122%      0     +4.66
+  lLN2F_b        4   1.182%      0   0.070%      0     +0.95
+  VESa1_P02      2   0.986%      0   0.453%      0     +1.90
+  DP1m_adPN      2   0.682%      0   0.262%      0     +1.06
+  CRE011         2   0.552%      0   0.148%      0     +0.69
+  VES079         2   0.532%      0   0.146%      0     +0.64
+  CB0448         2   0.332%      0   0.332%      0     +0.08
+  LHPV10b1       2   0.314%      0   0.133%      0     +0.03
+
+--- mechanosensory ---
+  random_mid  detour  0.002% cut    0.0 (size-matched draws)
+  random_top  detour  0.102% cut  231.9 (size-matched draws)
+  cell types that cut >=1 pair: 6/15   single-copy deletions that cut >=1: 5/15
+
+  cell type      n   detour    cut   1-copy  1-cut  z vs top
+  CB0109         2   1.260%   2228   1.019%   1114     +7.57
+  DNge132        2   0.944%   2224   0.651%   1113     +5.38
+  AN_GNG_89      2   0.803%   3342   0.301%   1114     +4.41
+  DNg62          2   0.793%      0   0.474%      0     +4.34
+  CB0574         2   0.731%      0   0.665%      0     +3.91
+  DNg84          2   0.590%   3336   0.149%   3339     +2.93
+  CB0478         2   0.518%      0   0.427%      0     +2.44
+  CB0021         2   0.390%      0   0.226%      0     +1.56
+  AVLP340        2   0.330%      0   0.141%      0     +1.14
+  PS100          2   0.298%      0   0.201%      0     +0.92
+  DNg35          2   0.295%   4448   0.280%   1113     +0.90
+  DNg98          1   0.260%      0   0.260%      0     +6.45
+  DNa03          2   0.219%      0   0.097%      0     +0.37
+  CB0534         2   0.142%    100   0.085%      0     -0.16
+  DNg100         2   0.082%      0   0.073%      0     -0.57
+
+--- visual ---
+  random_mid  detour  0.000% cut    0.0 (size-matched draws)
+  random_top  detour  0.297% cut   35.0 (size-matched draws)
+  cell types that cut >=1 pair: 6/16   single-copy deletions that cut >=1: 6/16
+
+  cell type      n   detour    cut   1-copy  1-cut  z vs top
+  OCG01d         2   9.631%   1890   7.258%   1050    +15.92
+  CB3916         1   3.610%      0   3.610%      0     +7.35
+  CB0415         2   3.421%      0   1.546%      0     +5.24
+  OCG01b         2   2.606%    630   1.634%    420     +3.83
+  CB3716         2   2.450%      0   2.044%      0     +3.57
+  OCG01e         2   2.312%    945   1.302%    525     +3.33
+  CB0478         2   2.001%      0   1.492%      0     +2.79
+  cM15           2   1.781%      0   0.783%      0     +2.42
+  CB0567         2   1.623%      0   0.568%      0     +2.14
+  DNp10          1   1.545%      0   1.545%      0     +2.88
+  Sm41           2   1.142%      0   0.716%      0     +1.32
+  OA-AL2i1       2   1.048%      0   0.476%      0     +1.15
+  DNp28          2   0.561%   1854   0.003%   1040     +0.32
+  PS124          1   0.295%      0   0.295%      0     +0.17
+  DNp19          2   0.003%   1020   0.000%   1030     -0.64
+  CB1350         2   0.001%   1030   0.000%   1030     -0.65
+
+

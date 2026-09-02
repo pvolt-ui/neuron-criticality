@@ -1,0 +1,20 @@
+Null A -- weight permutation (ocellar)
+====================================================
+
+graph            386 nodes, 2095 edges
+sources          142 of 142 (seed 0)
+targets          90
+trials           50
+
+Displacement = 50 - overlap(top50 weighted, top50 unweighted).
+How far a weighting moves the ranking off the unweighted baseline.
+
+REAL weights     12
+permuted weights 12.9 +/- 2.0   (range 8-17)
+
+z = -0.43    p = 0.7843  (one-sided: null displaces >= real)
+
+READ: randomly permuted weights displace the ranking about as much as the
+real ones. On this evidence the weighting effect is NOT distinguishable
+from generic sensitivity to edge distances. Do not claim weighting carries
+biological signal without a stronger test.

@@ -1,0 +1,159 @@
+Metric agreement matrix
+======================================================================
+
+--- olfactory  (intermediary neurons: 6620) ---
+
+Spearman rho:
+                   bw_weight  bw_unweig  influence  traversal  total_syn     in_syn    out_syn     in_deg    out_deg
+    bw_weighted       1.00       0.48       0.03       0.08       0.47       0.45       0.46       0.43       0.44
+  bw_unweighted       0.48       1.00      -0.12      -0.09       0.65       0.54       0.69       0.59       0.71
+      influence       0.03      -0.12       1.00       0.89      -0.07      -0.01      -0.15      -0.07      -0.15
+      traversal       0.08      -0.09       0.89       1.00      -0.11      -0.06      -0.17      -0.10      -0.16
+      total_syn       0.47       0.65      -0.07      -0.11       1.00       0.91       0.85       0.89       0.84
+         in_syn       0.45       0.54      -0.01      -0.06       0.91       1.00       0.62       0.93       0.62
+        out_syn       0.46       0.69      -0.15      -0.17       0.85       0.62       1.00       0.67       0.95
+         in_deg       0.43       0.59      -0.07      -0.10       0.89       0.93       0.67       1.00       0.70
+        out_deg       0.44       0.71      -0.15      -0.16       0.84       0.62       0.95       0.70       1.00
+
+Top-50 overlap vs chance  (obs / expected, p):
+    bw_weighted vs bw_unweighted  18 /  0.38   p=3.1e-27
+    bw_weighted vs influence       1 /  0.38   p=3.2e-01   <- indistinguishable from chance
+    bw_weighted vs traversal       3 /  0.38   p=6.2e-03
+    bw_weighted vs total_syn      23 /  0.38   p=3.7e-38
+    bw_weighted vs in_syn         18 /  0.38   p=3.1e-27
+    bw_weighted vs out_syn        19 /  0.38   p=2.5e-29
+    bw_weighted vs in_deg         16 /  0.38   p=3.2e-23
+    bw_weighted vs out_deg        16 /  0.38   p=3.2e-23
+  bw_unweighted vs influence       2 /  0.38   p=5.4e-02   <- indistinguishable from chance
+  bw_unweighted vs traversal       6 /  0.38   p=1.7e-06
+  bw_unweighted vs total_syn      20 /  0.38   p=1.9e-31
+  bw_unweighted vs in_syn         17 /  0.38   p=3.3e-25
+  bw_unweighted vs out_syn        13 /  0.38   p=1.4e-17
+  bw_unweighted vs in_deg         19 /  0.38   p=2.5e-29
+  bw_unweighted vs out_deg        12 /  0.38   p=8.2e-16
+      influence vs traversal      19 /  0.38   p=2.5e-29
+      influence vs total_syn       0 /  0.38   p=1.0e+00   <- indistinguishable from chance
+      influence vs in_syn          1 /  0.38   p=3.2e-01   <- indistinguishable from chance
+      influence vs out_syn         0 /  0.38   p=1.0e+00   <- indistinguishable from chance
+      influence vs in_deg          2 /  0.38   p=5.4e-02   <- indistinguishable from chance
+      influence vs out_deg         0 /  0.38   p=1.0e+00   <- indistinguishable from chance
+      traversal vs total_syn       2 /  0.38   p=5.4e-02   <- indistinguishable from chance
+      traversal vs in_syn          3 /  0.38   p=6.2e-03
+      traversal vs out_syn         2 /  0.38   p=5.4e-02   <- indistinguishable from chance
+      traversal vs in_deg          4 /  0.38   p=5.1e-04
+      traversal vs out_deg         2 /  0.38   p=5.4e-02   <- indistinguishable from chance
+      total_syn vs in_syn         36 /  0.38   p=9.8e-73
+      total_syn vs out_syn        40 /  0.38   p=1.4e-85
+      total_syn vs in_deg         32 /  0.38   p=4.8e-61
+      total_syn vs out_deg        37 /  0.38   p=7.9e-76
+         in_syn vs out_syn        26 /  0.38   p=2.6e-45
+         in_syn vs in_deg         37 /  0.38   p=7.9e-76
+         in_syn vs out_deg        26 /  0.38   p=2.6e-45
+        out_syn vs in_deg         24 /  0.38   p=1.7e-40
+        out_syn vs out_deg        38 /  0.38   p=5.4e-79
+         in_deg vs out_deg        25 /  0.38   p=7.1e-43
+
+--- mechanosensory  (intermediary neurons: 8036) ---
+
+Spearman rho:
+                   bw_weight  bw_unweig  influence  traversal  total_syn     in_syn    out_syn     in_deg    out_deg
+    bw_weighted       1.00       0.62       0.20       0.17       0.66       0.60       0.65       0.54       0.59
+  bw_unweighted       0.62       1.00       0.43       0.41       0.58       0.49       0.59       0.52       0.61
+      influence       0.20       0.43       1.00       0.89       0.02      -0.01       0.05       0.05       0.10
+      traversal       0.17       0.41       0.89       1.00      -0.08      -0.13      -0.03      -0.07       0.03
+      total_syn       0.66       0.58       0.02      -0.08       1.00       0.92       0.94       0.87       0.90
+         in_syn       0.60       0.49      -0.01      -0.13       0.92       1.00       0.76       0.95       0.74
+        out_syn       0.65       0.59       0.05      -0.03       0.94       0.76       1.00       0.71       0.95
+         in_deg       0.54       0.52       0.05      -0.07       0.87       0.95       0.71       1.00       0.71
+        out_deg       0.59       0.61       0.10       0.03       0.90       0.74       0.95       0.71       1.00
+
+Top-50 overlap vs chance  (obs / expected, p):
+    bw_weighted vs bw_unweighted  17 /  0.31   p=1.3e-26
+    bw_weighted vs influence       0 /  0.31   p=1.0e+00   <- indistinguishable from chance
+    bw_weighted vs traversal       2 /  0.31   p=3.8e-02   <- indistinguishable from chance
+    bw_weighted vs total_syn       6 /  0.31   p=5.5e-07
+    bw_weighted vs in_syn          7 /  0.31   p=1.9e-08
+    bw_weighted vs out_syn         7 /  0.31   p=1.9e-08
+    bw_weighted vs in_deg          9 /  0.31   p=1.4e-11
+    bw_weighted vs out_deg        10 /  0.31   p=2.9e-13
+  bw_unweighted vs influence       0 /  0.31   p=1.0e+00   <- indistinguishable from chance
+  bw_unweighted vs traversal       4 /  0.31   p=2.5e-04
+  bw_unweighted vs total_syn       3 /  0.31   p=3.6e-03
+  bw_unweighted vs in_syn          4 /  0.31   p=2.5e-04
+  bw_unweighted vs out_syn         3 /  0.31   p=3.6e-03
+  bw_unweighted vs in_deg          9 /  0.31   p=1.4e-11
+  bw_unweighted vs out_deg         8 /  0.31   p=5.5e-10
+      influence vs traversal      21 /  0.31   p=2.1e-35
+      influence vs total_syn       0 /  0.31   p=1.0e+00   <- indistinguishable from chance
+      influence vs in_syn          0 /  0.31   p=1.0e+00   <- indistinguishable from chance
+      influence vs out_syn         0 /  0.31   p=1.0e+00   <- indistinguishable from chance
+      influence vs in_deg          0 /  0.31   p=1.0e+00   <- indistinguishable from chance
+      influence vs out_deg         0 /  0.31   p=1.0e+00   <- indistinguishable from chance
+      traversal vs total_syn       0 /  0.31   p=1.0e+00   <- indistinguishable from chance
+      traversal vs in_syn          0 /  0.31   p=1.0e+00   <- indistinguishable from chance
+      traversal vs out_syn         0 /  0.31   p=1.0e+00   <- indistinguishable from chance
+      traversal vs in_deg          0 /  0.31   p=1.0e+00   <- indistinguishable from chance
+      traversal vs out_deg         0 /  0.31   p=1.0e+00   <- indistinguishable from chance
+      total_syn vs in_syn         39 /  0.31   p=1.6e-85
+      total_syn vs out_syn        35 /  0.31   p=1.2e-72
+      total_syn vs in_deg         31 /  0.31   p=6.8e-61
+      total_syn vs out_deg        24 /  0.31   p=1.7e-42
+         in_syn vs out_syn        25 /  0.31   p=5.6e-45
+         in_syn vs in_deg         36 /  0.31   p=9.1e-76
+         in_syn vs out_deg        20 /  0.31   p=3.9e-33
+        out_syn vs in_deg         21 /  0.31   p=2.1e-35
+        out_syn vs out_deg        30 /  0.31   p=4.2e-58
+         in_deg vs out_deg        25 /  0.31   p=5.6e-45
+
+--- ocellar  (intermediary neurons: 452) ---
+
+Spearman rho:
+                   bw_weight  bw_unweig  influence  traversal  total_syn     in_syn    out_syn     in_deg    out_deg
+    bw_weighted       1.00       0.60       0.32       0.39       0.54       0.45       0.57       0.43       0.54
+  bw_unweighted       0.60       1.00       0.52       0.63       0.64       0.48       0.72       0.51       0.75
+      influence       0.32       0.52       1.00       0.77       0.25       0.20       0.22       0.22       0.26
+      traversal       0.39       0.63       0.77       1.00       0.37       0.29       0.40       0.34       0.42
+      total_syn       0.54       0.64       0.25       0.37       1.00       0.91       0.88       0.87       0.86
+         in_syn       0.45       0.48       0.20       0.29       0.91       1.00       0.66       0.92       0.65
+        out_syn       0.57       0.72       0.22       0.40       0.88       0.66       1.00       0.66       0.98
+         in_deg       0.43       0.51       0.22       0.34       0.87       0.92       0.66       1.00       0.67
+        out_deg       0.54       0.75       0.26       0.42       0.86       0.65       0.98       0.67       1.00
+
+Top-50 overlap vs chance  (obs / expected, p):
+    bw_weighted vs bw_unweighted  30 /  5.53   p=1.3e-20
+    bw_weighted vs influence      16 /  5.53   p=1.5e-05
+    bw_weighted vs traversal      16 /  5.53   p=1.5e-05
+    bw_weighted vs total_syn      26 /  5.53   p=2.9e-15
+    bw_weighted vs in_syn         19 /  5.53   p=6.2e-08
+    bw_weighted vs out_syn        27 /  5.53   p=1.6e-16
+    bw_weighted vs in_deg         17 /  5.53   p=2.7e-06
+    bw_weighted vs out_deg        22 /  5.53   p=9.0e-11
+  bw_unweighted vs influence      27 /  5.53   p=1.6e-16
+  bw_unweighted vs traversal      23 /  5.53   p=8.1e-12
+  bw_unweighted vs total_syn      21 /  5.53   p=8.9e-10
+  bw_unweighted vs in_syn         17 /  5.53   p=2.7e-06
+  bw_unweighted vs out_syn        23 /  5.53   p=8.1e-12
+  bw_unweighted vs in_deg         18 /  5.53   p=4.3e-07
+  bw_unweighted vs out_deg        23 /  5.53   p=8.1e-12
+      influence vs traversal      35 /  5.53   p=1.4e-28
+      influence vs total_syn      10 /  5.53   p=3.5e-02   <- indistinguishable from chance
+      influence vs in_syn         10 /  5.53   p=3.5e-02   <- indistinguishable from chance
+      influence vs out_syn        12 /  5.53   p=4.4e-03
+      influence vs in_deg         11 /  5.53   p=1.3e-02   <- indistinguishable from chance
+      influence vs out_deg        10 /  5.53   p=3.5e-02   <- indistinguishable from chance
+      traversal vs total_syn       4 /  5.53   p=8.3e-01   <- indistinguishable from chance
+      traversal vs in_syn          4 /  5.53   p=8.3e-01   <- indistinguishable from chance
+      traversal vs out_syn         8 /  5.53   p=1.7e-01   <- indistinguishable from chance
+      traversal vs in_deg          5 /  5.53   p=6.7e-01   <- indistinguishable from chance
+      traversal vs out_deg         9 /  5.53   p=8.3e-02   <- indistinguishable from chance
+      total_syn vs in_syn         39 /  5.53   p=3.2e-36
+      total_syn vs out_syn        36 /  5.53   p=2.2e-30
+      total_syn vs in_deg         32 /  5.53   p=1.3e-23
+      total_syn vs out_deg        29 /  5.53   p=3.5e-19
+         in_syn vs out_syn        25 /  5.53   p=4.6e-14
+         in_syn vs in_deg         36 /  5.53   p=2.2e-30
+         in_syn vs out_deg        22 /  5.53   p=9.0e-11
+        out_syn vs in_deg         21 /  5.53   p=8.9e-10
+        out_syn vs out_deg        36 /  5.53   p=2.2e-30
+         in_deg vs out_deg        21 /  5.53   p=8.9e-10
+

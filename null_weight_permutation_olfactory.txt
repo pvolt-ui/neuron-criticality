@@ -1,0 +1,19 @@
+Null A -- weight permutation (olfactory)
+====================================================
+
+graph            8691 nodes, 163102 edges
+sources          400 of 1765 (seed 0)
+targets          113
+trials           50
+
+Displacement = 50 - overlap(top50 weighted, top50 unweighted).
+How far a weighting moves the ranking off the unweighted baseline.
+
+REAL weights     31
+permuted weights 25.3 +/- 2.2   (range 20-31)
+
+z = +2.60    p = 0.0392  (one-sided: null displaces >= real)
+
+READ: real synapse weights displace the bottleneck ranking FURTHER than
+randomly permuted weights of the same distribution. The reweighting is
+systematic, not parameter noise -- the weighting result stands.

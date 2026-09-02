@@ -1,0 +1,18 @@
+Cell-type ablation -- is the unit of criticality the neuron or the type?
+==========================================================================
+
+--- ocellar ---
+  random_mid  detour  0.000% cut    0.0 (size-matched draws)
+  random_top  detour  0.571% cut   62.8 (size-matched draws)
+  cell types that cut >=1 pair: 4/8   single-copy deletions that cut >=1: 4/8
+
+  cell type      n   detour    cut   1-copy  1-cut  z vs top
+  OCG02b         2   6.973%    474   4.053%    180     +4.51
+  CB0415         2   3.891%      0   3.484%      0     +2.18
+  CB0567         2   3.822%      0   2.450%      0     +2.13
+  DNp40          1   0.817%      0   0.817%      0     +3.66
+  DNp28          2   0.546%   1672   0.009%    979     -0.36
+  DNb06          2   0.201%      0   0.199%      0     -0.62
+  CB1350         2   0.000%    968   0.000%    968     -0.77
+  DNp19          2   0.000%    957   0.000%    968     -0.77
+

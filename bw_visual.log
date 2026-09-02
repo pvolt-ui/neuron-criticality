@@ -1,0 +1,19 @@
+
+=== visual ===
+  60467 nodes, 1231957 edges
+  sources (visual): 17004, targets (descending): 422
+  SAMPLED-SOURCE PROTOCOL: 500 sources (seed 0)
+  computing betweenness_centrality_subset (weighted, 500 Dijkstra runs)...
+  2401 neurons with nonzero betweenness (on some shortest sensory->descending path)
+           root_id  betweenness  rank
+720575940634612194     0.000008     1
+720575940619991862     0.000006     2
+720575940629513222     0.000006     3
+720575940628307026     0.000004     4
+720575940627190556     0.000004     5
+720575940628908548     0.000003     6
+720575940626979621     0.000003     7
+720575940618554041     0.000003     8
+720575940611563310     0.000003     9
+720575940622523508     0.000003    10
+  saved /home/pchodavarapu/neuron-criticality/ranked_visual.csv

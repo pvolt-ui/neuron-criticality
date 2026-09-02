@@ -1,0 +1,124 @@
+[olfactory] 12788 nodes, 409149 edges, 100 sampled sources, 197 targets, 50 trials
+  real betweenness: 22s
+  trial 1/50  28s
+  trial 2/50  31s
+  trial 3/50  29s
+  trial 4/50  32s
+  trial 5/50  29s
+  trial 6/50  31s
+  trial 7/50  32s
+  trial 8/50  33s
+  trial 9/50  32s
+  trial 10/50  33s
+  trial 11/50  32s
+  trial 12/50  29s
+  trial 13/50  31s
+  trial 14/50  33s
+  trial 15/50  33s
+  trial 16/50  30s
+  trial 17/50  32s
+  trial 18/50  30s
+  trial 19/50  31s
+  trial 20/50  34s
+  trial 21/50  32s
+  trial 22/50  35s
+  trial 23/50  31s
+  trial 24/50  36s
+  trial 25/50  30s
+  trial 26/50  32s
+  trial 27/50  33s
+  trial 28/50  30s
+  trial 29/50  31s
+  trial 30/50  33s
+  trial 31/50  37s
+  trial 32/50  32s
+  trial 33/50  32s
+  trial 34/50  27s
+  trial 35/50  31s
+  trial 36/50  31s
+  trial 37/50  32s
+  trial 38/50  30s
+  trial 39/50  32s
+  trial 40/50  33s
+  trial 41/50  31s
+  trial 42/50  31s
+  trial 43/50  31s
+  trial 44/50  32s
+  trial 45/50  32s
+  trial 46/50  32s
+  trial 47/50  30s
+  trial 48/50  28s
+  trial 49/50  32s
+  trial 50/50  32s
+Null B -- degree-preserving edge swap (olfactory)
+============================================================
+
+graph            12788 nodes, 409149 edges
+sources          100 sampled of 2615 (seed 0)
+targets          197
+trials           50   (5x|E| swap attempts each)
+
+Preserves every neuron's in-degree, out-degree and out-synapse total;
+destroys which partners it connects to. A neuron that keeps a high
+betweenness here is a bottleneck by position, not by connection count.
+
+top-50 above null, uncorrected p_emp<=0.05:  35/50
+top-50 above null, BH-FDR q_emp<=0.05:       32/50
+top-50 above null, BH-FDR q_z<=0.05:         37/50
+top-25  above null, BH-FDR q_z<=0.05:         22/25
+(empirical p floor is 1/(trials+1) = 0.0196)
+top-50 neurons whose null betweenness is exactly 0:  0/50
+median z:  7.50
+
+rank cell type   neuropil        real  null mean       z      q_z
+   1 v2LN30                 4.551e-05  6.330e-06    12.3  1.9e-34
+   2 MZ_lv2PN               4.565e-05  1.785e-06    37.7 2.2e-309
+   3 il3LN6                 2.970e-05  7.992e-06     5.9  3.0e-09
+   4 v2LN30                 2.265e-05  6.902e-06     4.7  2.2e-06
+   5 lLN2T_c                2.969e-05  3.959e-06    11.6  5.9e-31
+   6 MZ_lv2PN               2.092e-05  1.334e-06    13.5  1.9e-41
+   7 lLN2T_c                2.058e-05  4.601e-06     7.9  3.7e-15
+   8 pIP1                   1.452e-05  5.321e-07    18.7  4.0e-77
+   9 AL-AST1                1.405e-05  6.482e-07    22.3 2.1e-109
+  10 il3LN6                 1.254e-05  8.398e-06     1.2  1.3e-01
+  11 AVLP597                1.195e-05  2.617e-07    35.7 1.8e-277
+  12 lLN2T_c                7.248e-06  3.178e-06     2.4  1.2e-02
+  13 lLN2T_c                1.346e-05  3.713e-06     4.4  7.8e-06
+  14 AL-AST1                9.584e-06  7.791e-07    10.3  8.6e-25
+  15 lLN2F_b                8.789e-06  6.073e-06     1.2  1.4e-01
+  16 GNG494                 6.710e-06  1.156e-07    32.8 1.6e-235
+  17 AL-AST1                6.441e-06  5.670e-07    11.3  2.5e-29
+  18 LHAD1g1                5.138e-06  5.864e-07     4.4  7.2e-06
+  19 lLN2F_b                4.245e-06  5.810e-06    -0.6  7.3e-01
+  20 pIP1                   4.116e-06  3.468e-07     6.5  6.0e-11
+  21 GNG028                 4.496e-06  2.555e-07    10.6  2.2e-26
+  22 AVLP597                4.233e-06  2.053e-07    12.3  1.9e-34
+  23 DNb05                  4.245e-06  3.667e-07     7.1  9.6e-13
+  24 DNg100                 3.841e-06  3.114e-07     4.7  2.2e-06
+  25 DNp103                 3.915e-06  2.209e-07    12.3  1.9e-34
+  26 DNpe002                3.762e-06  1.600e-07    12.1  1.1e-33
+  27 PLP096                 3.768e-06  1.470e-07    16.2  2.7e-58
+  28 DNp42                  3.639e-06  9.994e-08    15.7  5.1e-55
+  29 DNge054                3.535e-06  1.079e-07    11.7  1.1e-31
+  30 lLN2P_c                3.541e-06  9.340e-07     2.5  8.8e-03
+  31 lLN2F_b                9.725e-07  6.080e-06    -1.8  9.6e-01
+  32 DM1_lPN                3.505e-06  2.082e-06     0.8  2.3e-01
+  33 VES002                 3.211e-06  9.126e-08    16.8  6.1e-63
+  34 PVLP076                3.285e-06  2.829e-07     6.6  3.0e-11
+  35 VA2_adPN               4.398e-06  1.678e-06     1.6  7.0e-02
+  36 VA6_adPN               2.006e-06  1.108e-06     1.1  1.7e-01
+  37 DNge069                2.924e-06  1.236e-08    66.0  0.0e+00
+  38 SAD013                 3.028e-06  9.982e-08    13.4  7.5e-41
+  39 PLP256                 2.532e-06  8.967e-08    11.2  3.0e-29
+  40 DL1_adPN               8.991e-07  2.793e-07     1.4  1.0e-01
+  41 DM2_lPN                3.077e-06  4.664e-07     5.3  7.7e-08
+  42 SAD043                 2.532e-06  9.016e-08     7.9  3.1e-15
+  43 VL1_ilPN               1.193e-06  8.454e-07     0.6  3.2e-01
+  44 DM1_lPN                1.768e-06  2.297e-06    -0.3  6.8e-01
+  45 GNG667                 2.483e-06  5.260e-08    12.8  2.1e-37
+  46 lLN2X04                1.425e-06  2.161e-06    -0.6  7.3e-01
+  47 DL4_adPN               2.379e-06  3.365e-07     3.3  7.1e-04
+  48 DL3_lPN                2.410e-06  3.890e-08    20.6  1.4e-93
+  49 VA3_adPN               0.000e+00  2.486e-07    -0.6  7.3e-01
+  50 VL2a_adPN              2.410e-06  1.612e-06     0.6  3.1e-01
+

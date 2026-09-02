@@ -1,0 +1,29 @@
+
+=== olfactory ===
+  traversal model...
+         in_syn vs in_deg         37 /  0.38   p=7.9e-76
+         in_syn vs out_deg        26 /  0.38   p=2.6e-45
+        out_syn vs in_deg         24 /  0.38   p=1.7e-40
+        out_syn vs out_deg        38 /  0.38   p=5.4e-79
+         in_deg vs out_deg        25 /  0.38   p=7.1e-43
+
+
+=== mechanosensory ===
+  traversal model...
+         in_syn vs in_deg         36 /  0.31   p=9.1e-76
+         in_syn vs out_deg        20 /  0.31   p=3.9e-33
+        out_syn vs in_deg         21 /  0.31   p=2.1e-35
+        out_syn vs out_deg        30 /  0.31   p=4.2e-58
+         in_deg vs out_deg        25 /  0.31   p=5.6e-45
+
+
+=== visual ===
+  traversal model...
+         in_syn vs in_deg         36 /  5.53   p=2.2e-30
+         in_syn vs out_deg        22 /  5.53   p=9.0e-11
+        out_syn vs in_deg         21 /  5.53   p=8.9e-10
+        out_syn vs out_deg        36 /  5.53   p=2.2e-30
+         in_deg vs out_deg        21 /  5.53   p=8.9e-10
+
+
+saved metric_agreement.txt

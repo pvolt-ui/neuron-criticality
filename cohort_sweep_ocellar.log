@@ -1,0 +1,72 @@
+
+=== ocellar: 386 nodes, 100 sources, 90 targets
+  size curve top200 done
+  size curve rank200_1000 done
+  size curve rank1000_2000 done
+  OCG01d       k=2   cohort  12.191%  sum-of-singles  11.205%  superadd  1.09x  z +3.43
+  CB0567       k=2   cohort   3.822%  sum-of-singles   2.734%  superadd  1.40x  z +2.79
+  OCG01e       k=2   cohort   3.378%  sum-of-singles   3.189%  superadd  1.06x  z +0.08
+  OCG01b       k=2   cohort   3.320%  sum-of-singles   3.294%  superadd  1.01x  z +0.17
+  DNp28        k=2   cohort   0.546%  sum-of-singles   0.396%  superadd  1.38x  z -0.52
+  DNp19        k=2   cohort   0.000%  sum-of-singles   3.304%  superadd  0.00x  z -1.08
+  CB1350       k=2   cohort   0.000%  sum-of-singles   0.000%  superadd   nanx  z -0.50
+  CB0415       k=2   cohort   3.891%  sum-of-singles   3.658%  superadd  1.06x  z +3.04
+  OCG01f       k=2   cohort   1.317%  sum-of-singles   1.455%  superadd  0.90x  z +0.20
+  PS126        k=2   cohort   3.115%  sum-of-singles   3.150%  superadd  0.99x  z +0.07
+  OCG02b       k=2   cohort   6.973%  sum-of-singles   4.665%  superadd  1.49x  z +4.27
+  PS276        k=2   cohort   1.607%  sum-of-singles   1.506%  superadd  1.07x  z +0.73
+  DNb06        k=2   cohort   0.201%  sum-of-singles   0.199%  superadd  1.01x  z -0.11
+  CB2126       k=4   cohort   1.222%  sum-of-singles   0.678%  superadd  1.80x  z -0.64
+  PS051        k=2   cohort   0.900%  sum-of-singles   0.916%  superadd  0.98x  z -0.26
+  CB3716       k=2   cohort   1.244%  sum-of-singles   1.244%  superadd  1.00x  z -0.24
+  OCG01c       k=2   cohort   0.457%  sum-of-singles   0.452%  superadd  1.01x  z -0.50
+  CB1873       k=3   cohort   0.778%  sum-of-singles   0.754%  superadd  1.03x  z +0.29
+  PS280        k=2   cohort   0.244%  sum-of-singles   0.244%  superadd  1.00x  z -0.35
+  SPS100f      k=2   cohort   0.348%  sum-of-singles   0.348%  superadd  1.00x  z -0.49
+  IB008        k=2   cohort   0.739%  sum-of-singles   0.497%  superadd  1.49x  z -0.27
+  IB097        k=2   cohort   0.462%  sum-of-singles   0.400%  superadd  1.15x  z -0.39
+  CB0651       k=2   cohort   0.362%  sum-of-singles   0.362%  superadd  1.00x  z +0.43
+  CB2263       k=4   cohort   0.568%  sum-of-singles   0.371%  superadd  1.53x  z -0.03
+  DNpe004      k=2   cohort   0.142%  sum-of-singles   0.141%  superadd  1.01x  z +4.89
+
+Cohort-size sweep -- size effect vs coherence effect
+======================================================================
+
+--- ocellar ---
+  size curve (mean detour % of a random set of k neurons):
+    band                   1        2        4        8       16       32
+    top200             0.121    0.288    1.425    1.518    4.396    6.321
+    rank200_1000       0.000    0.000    0.000    0.000    0.000    0.000
+    rank1000_2000          -        -        -        -        -        -
+
+  cell types tested: 25   superadditive (>1x): 18/24   median 1.02x
+  beating rank-matched control at z>2: 5/25   (excluding near-zero-control cases: 5)
+
+  cell type      k medrank   cohort  sum1by1  superadd       z  flag
+  CB2126         4      34   1.222%   0.678%     1.80x   -0.64
+  CB2263         4      54   0.568%   0.371%     1.53x   -0.03
+  OCG02b         2      20   6.973%   4.665%     1.49x   +4.27
+  IB008          2      62   0.739%   0.497%     1.49x   -0.27
+  CB0567         2      28   3.822%   2.734%     1.40x   +2.79
+  DNp28          2      10   0.546%   0.396%     1.38x   -0.52
+  IB097          2      52   0.462%   0.400%     1.15x   -0.39
+  OCG01d         2       3  12.191%  11.205%     1.09x   +3.43
+  PS276          2      46   1.607%   1.506%     1.07x   +0.73
+  CB0415         2      36   3.891%   3.658%     1.06x   +3.04
+  OCG01e         2       6   3.378%   3.189%     1.06x   +0.08
+  CB1873         3      47   0.778%   0.754%     1.03x   +0.29
+  OCG01c         2      34   0.457%   0.452%     1.01x   -0.50
+  DNb06          2     104   0.201%   0.199%     1.01x   -0.11
+  DNpe004        2     204   0.142%   0.141%     1.01x   +4.89
+  OCG01b         2       6   3.320%   3.294%     1.01x   +0.17
+  CB3716         2      29   1.244%   1.244%     1.00x   -0.24
+  CB0651         2      66   0.362%   0.362%     1.00x   +0.43
+  SPS100f        2      41   0.348%   0.348%     1.00x   -0.49
+  PS280          2      51   0.244%   0.244%     1.00x   -0.35
+  PS126          2      30   3.115%   3.150%     0.99x   +0.07
+  PS051          2      44   0.900%   0.916%     0.98x   -0.26
+  OCG01f         2      20   1.317%   1.455%     0.90x   +0.20
+  DNp19          2      10   0.000%   3.304%     0.00x   -1.08
+  CB1350         2      58   0.000%   0.000%      nanx   -0.50
+
+

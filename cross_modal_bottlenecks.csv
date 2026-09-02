@@ -1,0 +1,7 @@
+root_id,modalities,n_modalities,primary_type,neuropil,nt_type,sub_class,nerve,betweenness_olfactory,betweenness_mechanosensory,betweenness_visual,betweenness_ocellar
+720575940615723314,mechanosensory+olfactory,2,PVLP076,AVLP_R,ACH,,,7.257565846848673e-05,0.0002255935784246,,
+720575940608545219,mechanosensory+visual,2,AVLP080,AVLP_R,GABA,,,,0.0004995612570233,1.8413180495948511e-06,
+720575940627796298,mechanosensory+visual,2,AVLP080,AVLP_L,GABA,,,,0.0004036230972378,1.508174053099526e-06,
+720575940643112333,mechanosensory+ocellar,2,CB0676,SPS_R,ACH,,,,0.0002041791503974,,0.0068249458874458
+720575940623702345,mechanosensory+visual,2,CB0677,VES_R,GABA,,,,0.0002023198626632,1.547013500966797e-06,
+720575940619636615,mechanosensory+visual,2,PS124,IPS_R,ACH,,,,0.0001870595683062,2.493930180660406e-06,

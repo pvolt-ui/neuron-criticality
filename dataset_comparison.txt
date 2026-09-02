@@ -1,0 +1,25 @@
+Cross-dataset replication: FAFB v783 vs MCNS v0.9
+==================================================================
+
+Cell-type level, max betweenness per type, shared 150-source protocol.
+
+--- olfactory ---
+  cell types: FAFB 1914, MCNS 2757, shared 1209
+  top-25 overlap: 9   expected by chance 0.52   p = 2.33e-10
+  Spearman rho over all 1209 shared types: +0.669
+  replicating types: AL-AST1, DM1_lPN, MZ_lv2PN, PLP096, PVLP076, il3LN6, lLN2F_b, lLN2T_c, v2LN30
+
+--- mechanosensory ---
+  cell types: FAFB 4226, MCNS 9822, shared 2218
+  top-25 overlap: 12   expected by chance 0.28   p = 8.77e-19
+  Spearman rho over all 2218 shared types: +0.710
+  replicating types: AVLP080, AVLP340, DNg100, DNg16, DNg35, DNg62, DNge027, DNge132, DNp35, PS100, PS124, PVLP076
+
+--- visual ---
+  cell types: FAFB 3834, MCNS 5260, shared 2323
+  top-25 overlap: 13   expected by chance 0.27   p = 2.86e-21
+  Spearman rho over all 2323 shared types: +0.704
+  replicating types: AVLP080, Am1, H2, LPT26, LT11, LT1c, LT62, LT79, Li32, Li33, PS124, PVLP011, PVLP061
+
+--- ocellar: missing ranking, skipped ---
+
